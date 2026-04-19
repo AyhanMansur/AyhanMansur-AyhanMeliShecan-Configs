@@ -6,10 +6,10 @@ I Maked Super Cool Html Panel for Dear iranain user this panel gives confgi link
 💥 **ayhan-meli-shecan** – عبور از اینترنت ملی با یک کلیک!
 
 📡 این پروژه شامل یک فایل کانفیگ اختصاصی برای کلاینت  
-**NapsternetV (Npv Tunnel)**  
+**Sing Box  (Sing Box and Hiddify)**  
 می‌باشد که به کاربران داخل ایران کمک می‌کند در زمان **محدودیت، فیلترینگ گسترده یا ملی شدن اینترنت**، همچنان به اینترنت جهانی متصل بمانند.
 
-این ریپو مخصوص **کانفیگ NV (NapsternetV)** طراحی شده و برای شرایط اضطراری تست شده است.
+این ریپو مخصوص **کانفیگ SB and Hd (Sing Box and Hiddify)** طراحی شده و برای شرایط اضطراری تست شده است.
 
 ---
 
