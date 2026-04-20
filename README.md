@@ -15,7 +15,7 @@ I Maked Super Cool Html Panel for Dear iranain user this panel gives confgi link
 
 ## ⬇️ دانلود فایل کانفیگ اتصال
 
-[⬇️ دانلود مستقیم فایلAyhan Configs🇮🇷🍔🏔.npvt](sing-box://import-remote-profile?url=https://steep-sound-618d.umc-mansur13.workers.dev/#𝓐𝔂𝓱𝓪𝓷 | 𝓖𝓮𝓻𝓶𝓪𝓷𝔂 🇩🇪)
+[⬇️ دانلود مستقیم فایل](sing-box://import-remote-profile?url=https://steep-sound-618d.umc-mansur13.workers.dev/#𝓐𝔂𝓱𝓪𝓷 | 𝓖𝓮𝓻𝓶𝓪𝓷𝔂 🇩🇪)
 ## 📥 نصب برنامه (Sing Box and Hiddify)
 
 ### 📱 آیفون (iOS)
