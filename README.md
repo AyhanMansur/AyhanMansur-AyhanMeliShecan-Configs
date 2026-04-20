@@ -75,6 +75,9 @@ For the latest versions, updates, and announcements:
 ---
 
 ## 🌐 All Collected Configs
-
+```
+https://steep-sound-618d.umc-mansur13.workers.dev/#𝓐𝔂𝓱𝓪𝓷 | 𝓖𝓮𝓻𝓶𝓪𝓷𝔂 🇩🇪
+```
 Access the full list of available configurations here:
 
+@ 𝔸𝕪𝕙𝕒𝕟𝕄𝕒𝕟𝕤𝕦𝕣 𝟚𝟘𝟚𝟞
