@@ -14,7 +14,8 @@ I Maked Super Cool Html Panel for Dear iranain user this panel gives confgi link
 ---
 
 ## ⬇️ دانلود فایل کانفیگ اتصال
-[⬇️ دانلود مستقیم فایلAyhan Configs🇮🇷🍔🏔.npvt](https://github.com/AyhanMansur/ayhan-meli-shecan/releases/download/Ayhan.Configs.npvt/Ayhan.Configs.npvt)
+
+[⬇️ دانلود مستقیم فایلAyhan Configs🇮🇷🍔🏔.npvt](sing-box://import-remote-profile?url=https://steep-sound-618d.umc-mansur13.workers.dev/#𝓐𝔂𝓱𝓪𝓷 | 𝓖𝓮𝓻𝓶𝓪𝓷𝔂 🇩🇪)
 ## 📥 نصب برنامه (Npv Tunnel)
 
 ### 📱 آیفون (iOS)
