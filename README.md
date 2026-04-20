@@ -1,74 +1,80 @@
-# AyhanMansur-AyhanMeliShecan-Configs
-I Maked Super Cool Html Panel for Dear iranain user this panel gives config link sub for hiddfy and sing box 😎
+# 🚀 AyhanMeliShecan Configs
 
-# ayhan-meli-shecan#
-
-💥 **ayhan-meli-shecan** – عبور از اینترنت ملی با یک کلیک!
-
-📡 این پروژه شامل یک فایل کانفیگ اختصاصی برای کلاینت  
-**Sing Box  (Sing Box and Hiddify)**  
-می‌باشد که به کاربران داخل ایران کمک می‌کند در زمان **محدودیت، فیلترینگ گسترده یا ملی شدن اینترنت**، همچنان به اینترنت جهانی متصل بمانند.
-
-این ریپو مخصوص **کانفیگ SB and Hd (Sing Box and Hiddify)** طراحی شده و برای شرایط اضطراری تست شده است.
+> **💥 عبور از محدودیت‌های اینترنت با یک کلیک!**  
+> *Designed for Iranian users to bypass national internet restrictions seamlessly.*
 
 ---
 
-## ⬇️ دانلود فایل کانفیگ اتصال
+## 🌟 About This Project
 
-[⬇️ دانلود مستقیم فایل](sing-box://import-remote-profile?url=https://steep-sound-618d.umc-mansur13.workers.dev/#𝓐𝔂𝓱𝓪𝓷 | 𝓖𝓮𝓻𝓶𝓪𝓷𝔂 🇩🇪)
-## 📥 نصب برنامه (Sing Box and Hiddify)
+**AyhanMeliShecan** is a specialized configuration panel built for **Sing Box** and **Hiddify** clients. It provides a secure, high-speed connection link to help users in Iran stay connected to the global internet during:
+- 🚫 Widespread filtering
+- 🇮🇷 National internet restrictions
+- ⚠️ Network outages or instability
 
-### 📱 آیفون (iOS)
-👉 https://apps.apple.com/us/app/sing-box-vt/id6673731168
-
-👉 https://apps.apple.com/us/app/hiddify-proxy-vpn/id6596777532
-### 🤖 اندروید(Google Play)
-👉 https://play.google.com/store/apps/details?id=app.hiddify.com
-
-👉 https://play.google.com/store/apps/details?id=io.nekohasekai.sfa&hl=fa
-
-### 🤖 اندروید (نسخه جایگزین)
-👉 https://t.me/ayhandeveloper
+This repository is optimized for **emergency scenarios** and tested for maximum reliability.
 
 ---
 
-## 🛠️ نحوه استفاده (آموزش کامل)
+## ⚡ Quick Start: Download Config
 
-1️⃣ **دانلود فایل کانفیگ**  
-روی لینک زیر بزنید تا فایل کانفیگ دانلود شود:  
+Click the button below to automatically import the configuration into your app:
 
-[⬇️ دانلود مستقیم فایل](sing-box://import-remote-profile?url=https://steep-sound-618d.umc-mansur13.workers.dev/#𝓐𝔂𝓱𝓪𝓷 | 𝓖𝓮𝓻𝓶𝓪𝓷𝔂 🇩🇪)
-
-- از لیست برنامه‌ها، **Sing Box or Hiddify (Sing Box or hiddfy)** را انتخاب کنید  
-- در صورت نمایش، گزینه **Always / همیشه** را بزنید  
-
-📌 کانفیگ به‌صورت خودکار داخل برنامه ایمپورت می‌شود.
-
-4️⃣ **اتصال**  
-- وارد برنامه Hidddfy شوید  
-- کانفیگ ایمپورت‌شده را انتخاب کنید  
-- روی **Connect / اتصال** بزنید  
-- چند ثانیه صبر کنید تا وضعیت **Connected** نمایش داده شود ✅
-
----
-## ⚠️ نکات مهم
-
-- این کانفیگ برای **استفاده شخصی** طراحی شده است  
-- مناسب شرایط **نت ملی، اختلال شدید و قطعی مقطعی**  
-- استفاده تجاری، سروری یا اشتراکی توصیه نمی‌شود  
-- مسئولیت نحوه استفاده بر عهده کاربر است  
+[🔗 **Import Config to Sing Box / Hiddify**](sing-box://import-remote-profile?url=https://steep-sound-618d.umc-mansur13.workers.dev/#𝓐𝔂𝓱𝓪𝓷 | 𝓖𝓮𝓻𝓶𝓪𝓷𝔂 🇩🇪)
 
 ---
 
-## 📢 ارتباط با ما
+## 📥 Installation Guide
 
-📬 برای دریافت نسخه‌های به‌روزشده و اطلاعیه‌ها:  
-👉 https://t.me/ayhandeveloper
+### 🍎 iOS (iPhone/iPad)
+Download the official apps from the App Store:
+- [**Sing Box**](https://apps.apple.com/us/app/sing-box-vt/id6673731168)
+- [**Hiddify**](https://apps.apple.com/us/app/hiddify-proxy-vpn/id6596777532)
+
+### 🤖 Android (Google Play)
+- [**Hiddify**](https://play.google.com/store/apps/details?id=app.hiddify.com)
+- [**Sing Box**](https://play.google.com/store/apps/details?id=io.nekohasekai.sfa&hl=fa)
+
+### 📱 Alternative (Telegram)
+For direct installation or alternative versions:
+- [**Telegram Channel**](https://t.me/ayhandeveloper)
 
 ---
 
-با عشق ❤️  
-برای روزهای سخت اینترنت ایران                                       👇🏼All collected configs
-```
-https://steep-sound-618d.umc-mansur13.workers.dev/#𝓐𝔂𝓱𝓪𝓷 | 𝓖𝓮𝓻𝓶𝓪𝓷𝔂 🇩🇪
-```
+## 🛠️ How to Use (Step-by-Step)
+
+1.  **Download the Config**  
+    Click the link above (`Import Config`).
+2.  **Select App**  
+    Choose **Sing Box** or **Hiddify** from the list.
+    - If prompted, select **"Always"** to allow the app to open.
+3.  **Automatic Import**  
+    The configuration will be imported automatically into the app.
+4.  **Connect**  
+    - Open **Hiddify** (or Sing Box).
+    - Select the imported profile.
+    - Tap **Connect / اتصال**.
+    - Wait a few seconds until the status shows **Connected ✅**.
+
+---
+
+## ⚠️ Important Notes
+
+- 🔒 **Personal Use Only:** This configuration is designed strictly for personal use.
+- 🚫 **No Commercial Use:** Do not use for server hosting, commercial purposes, or sharing.
+- 🛡️ **User Responsibility:** The user is solely responsible for how they use this connection.
+- 🌍 **Optimized For:** National internet restrictions, heavy filtering, and intermittent outages.
+
+---
+
+## 📢 Stay Updated
+
+For the latest versions, updates, and announcements:
+- [**Join Telegram Channel**](https://t.me/ayhandeveloper)
+
+---
+
+## 🌐 All Collected Configs
+
+Access the full list of available configurations here:
+
