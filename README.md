@@ -1,5 +1,5 @@
 # AyhanMansur-AyhanMeliShecan-Configs
-I Maked Super Cool Html Panel for Dear iranain user this panel gives confgi link sub for hidify and sing box 
+I Maked Super Cool Html Panel for Dear iranain user this panel gives confgi link sub for hidify and sing box 😎
 
 # ayhan-meli-shecan#
 
@@ -37,7 +37,7 @@ I Maked Super Cool Html Panel for Dear iranain user this panel gives confgi link
 1️⃣ **دانلود فایل کانفیگ**  
 روی لینک زیر بزنید تا فایل کانفیگ دانلود شود:  
 
-[⬇️ دانلود مستقیم فایلAyhan Configs🇮🇷🍔🏔.npvt](https://github.com/AyhanMansur/ayhan-meli-shecan/releases/download/Ayhan.Configs.npvt/Ayhan.Configs.npvt)
+[⬇️ دانلود مستقیم فایل](sing-box://import-remote-profile?url=https://steep-sound-618d.umc-mansur13.workers.dev/#𝓐𝔂𝓱𝓪𝓷 | 𝓖𝓮𝓻𝓶𝓪𝓷𝔂 🇩🇪)
 
 - از لیست برنامه‌ها، **Sing Box or Hiddify (Sing Box or hiddfy)** را انتخاب کنید  
 - در صورت نمایش، گزینه **Always / همیشه** را بزنید  
