@@ -23,7 +23,9 @@ I Maked Super Cool Html Panel for Dear iranain user this panel gives confgi link
 
 👉 https://apps.apple.com/us/app/hiddify-proxy-vpn/id6596777532
 ### 🤖 اندروید(Google Play)
-👉 https://play.google.com/store/apps/details?id=com.napsternetlabs.napsternetv
+👉 https://play.google.com/store/apps/details?id=app.hiddify.com
+
+👉 https://play.google.com/store/apps/details?id=io.nekohasekai.sfa&hl=fa
 
 ### 🤖 اندروید (نسخه جایگزین)
 👉 https://t.me/ayhandeveloper
