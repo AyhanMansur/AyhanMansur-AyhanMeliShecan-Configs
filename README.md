@@ -16,12 +16,13 @@ I Maked Super Cool Html Panel for Dear iranain user this panel gives confgi link
 ## ⬇️ دانلود فایل کانفیگ اتصال
 
 [⬇️ دانلود مستقیم فایلAyhan Configs🇮🇷🍔🏔.npvt](sing-box://import-remote-profile?url=https://steep-sound-618d.umc-mansur13.workers.dev/#𝓐𝔂𝓱𝓪𝓷 | 𝓖𝓮𝓻𝓶𝓪𝓷𝔂 🇩🇪)
-## 📥 نصب برنامه (Npv Tunnel)
+## 📥 نصب برنامه (Sing Box and Hiddify)
 
 ### 📱 آیفون (iOS)
-👉 https://apps.apple.com/us/app/npv-tunnel/id1629465476
+👉 https://apps.apple.com/us/app/sing-box-vt/id6673731168
 
-### 🤖 اندروید (Google Play)
+👉 https://apps.apple.com/us/app/hiddify-proxy-vpn/id6596777532
+### 🤖 اندروید(Google Play)
 👉 https://play.google.com/store/apps/details?id=com.napsternetlabs.napsternetv
 
 ### 🤖 اندروید (نسخه جایگزین)
@@ -36,34 +37,18 @@ I Maked Super Cool Html Panel for Dear iranain user this panel gives confgi link
 
 [⬇️ دانلود مستقیم فایلAyhan Configs🇮🇷🍔🏔.npvt](https://github.com/AyhanMansur/ayhan-meli-shecan/releases/download/Ayhan.Configs.npvt/Ayhan.Configs.npvt)
 
-2️⃣ **رفتن به پوشه دانلودها**  
-بعد از دانلود، فایل با نام  
-**melishekan-nv_01.npv**  
-داخل پوشه **Downloads / دانلودها** ذخیره می‌شود.
-
-3️⃣ **باز کردن فایل با NV**  
-- روی فایل دانلودشده ضربه بزنید  
-- از لیست برنامه‌ها، **NapsternetV (Npv Tunnel)** را انتخاب کنید  
+- از لیست برنامه‌ها، **Sing Box or Hiddify (Sing Box or hiddfy)** را انتخاب کنید  
 - در صورت نمایش، گزینه **Always / همیشه** را بزنید  
 
 📌 کانفیگ به‌صورت خودکار داخل برنامه ایمپورت می‌شود.
 
 4️⃣ **اتصال**  
-- وارد برنامه NapsternetV شوید  
+- وارد برنامه Hidddfy شوید  
 - کانفیگ ایمپورت‌شده را انتخاب کنید  
 - روی **Connect / اتصال** بزنید  
 - چند ثانیه صبر کنید تا وضعیت **Connected** نمایش داده شود ✅
 
 ---
-
-## 🆘 اگر فایل به‌صورت خودکار باز نشد
-1. وارد برنامه **NapsternetV** شوید  
-2. از منو، گزینه **Import Config / Import File** را انتخاب کنید  
-3. مسیر **Downloads** را باز کنید  
-4. فایل **melishekan-nv_01.npv** را به‌صورت دستی ایمپورت کنید  
-
----
-
 ## ⚠️ نکات مهم
 
 - این کانفیگ برای **استفاده شخصی** طراحی شده است  
@@ -83,45 +68,5 @@ I Maked Super Cool Html Panel for Dear iranain user this panel gives confgi link
 با عشق ❤️  
 برای روزهای سخت اینترنت ایران                                       👇🏼All collected configs
 ```
-https://github.com/Epodonios/v2ray-configs/raw/main/All_Configs_Sub.txt
-```
-
-If the above link doesn't work, try the base 64 configurations:
-```
-https://github.com/Epodonios/v2ray-configs/raw/main/All_Configs_base64_Sub.txt
-```
-
-
-### Splited by protocol:
-
-Vless:
-```
-https://github.com/Epodonios/v2ray-configs/raw/main/Splitted-By-Protocol/vless.txt
-```
-
-Vmess:
-```
-https://github.com/Epodonios/v2ray-configs/raw/main/Splitted-By-Protocol/vmess.txt
-```
-
-ss:
-```
-https://github.com/Epodonios/v2ray-configs/raw/main/Splitted-By-Protocol/ss.txt
-```
-
-ssr:
-```
-https://github.com/Epodonios/v2ray-configs/raw/main/Splitted-By-Protocol/ssr.txt
-```
-
-Trojan:
-```
-https://github.com/Epodonios/v2ray-configs/raw/main/Splitted-By-Protocol/trojan.txt
-```
-
-### Splited in 250 count of configs:
-
-Config List 1:
-```
-https://raw.githubusercontent.com/Epodonios/v2ray-configs/refs/heads/main/Sub1.txt
+https://steep-sound-618d.umc-mansur13.workers.dev/#𝓐𝔂𝓱𝓪𝓷 | 𝓖𝓮𝓻𝓶𝓪𝓷𝔂 🇩🇪
 ```
