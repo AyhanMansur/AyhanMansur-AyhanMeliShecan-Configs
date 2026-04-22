@@ -79,7 +79,7 @@ For the latest versions, updates, and announcements:
 https://steep-sound-618d.umc-mansur13.workers.dev/#𝓐𝔂𝓱𝓪𝓷 | 𝓖𝓮𝓻𝓶𝓪𝓷𝔂 🇩🇪
 ```
 Access the full list of available configurations here:
-```
-https://ayhanmansur.github.io/AyhanMansur-AyhanMeliShecan-Configs/
-```
+# Ayhan MeliShecan Configs
+[🚀 **View Live Project & Full Profile**](https://ayhanmansur.github.io/AyhanMansur-AyhanMeliShecan-Configs/) <!-- لینک واقعی خودت رو اینجا بذار -->
+
 @ 𝔸𝕪𝕙𝕒𝕟𝕄𝕒𝕟𝕤𝕦𝕣 𝟚𝟘𝟚𝟞
