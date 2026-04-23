@@ -80,6 +80,6 @@ https://steep-sound-618d.umc-mansur13.workers.dev/#𝓐𝔂𝓱𝓪𝓷 | 𝓖�
 ```
 Access the full list of available configurations here:
 # Ayhan MeliShecan Configs
-[🚀 **View Live Project & Full Profile**](https://ayhanmansur.github.io/AyhanMansur-AyhanMeliShecan-Configs/) <!-- لینک واقعی خودت رو اینجا بذار -->
+[🚀 **View Live Project](https://ayhanmansur.github.io/AyhanMansur-AyhanMeliShecan-Configs/) <!-- لینک واقعی خودت رو اینجا بذار -->
 
 @ 𝔸𝕪𝕙𝕒𝕟𝕄𝕒𝕟𝕤𝕦𝕣 𝟚𝟘𝟚𝟞
