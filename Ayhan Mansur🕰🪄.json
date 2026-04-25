@@ -1,4 +1,5 @@
- "dns": {
+{
+  "dns": {
     "final": "proxy-dns",
     "independent_cache": true,
     "rules": [
