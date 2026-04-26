@@ -1803,7 +1803,7 @@ proxy-groups:
   - name: "✅ Selector"
     proxies:
       - "💦 Best Ping 🚀"
-      - "سرور گیمینگ سرور حجم ۱۰ گیگ👾🎮🌿"
+      - "💦 1 - VLESS - Domain : 80"
       - "💦 2 - VLESS - Domain : 80"
       - "💦 3 - VLESS - IPv4 : 80"
       - "💦 4 - VLESS - IPv4 : 80"
@@ -1884,7 +1884,7 @@ proxy-groups:
   - interval: 30
     name: "💦 Best Ping 🚀"
     proxies:
-      - "سرور گیمینگ سرور حجم ۱۰ گیگ👾🎮🌿"
+      - "💦 1 - VLESS - Domain : 80"
       - "💦 2 - VLESS - Domain : 80"
       - "💦 3 - VLESS - IPv4 : 80"
       - "💦 4 - VLESS - IPv4 : 80"
