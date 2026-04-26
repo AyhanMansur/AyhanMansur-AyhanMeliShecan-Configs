@@ -1,5 +1,4 @@
-// Refer to : https://github.com/NiREvil/vless/wiki
-
+#
 {
   "dns": {
     "final": "proxy-dns",
