@@ -73,7 +73,7 @@ rule-providers:
     url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/openai.yaml"
 proxies:
   - ip-version: "ipv4-prefer"
-    name: "سرور گیمینگ سرور حجم ۱۰ گیگ👾🎮🇦🇪"
+    name: "سرور گیمینگ سرور حجم ۱۰ گیگ👾🎮🌿"
     network: "ws"
     packet-encoding: ""
     port: 80
@@ -89,7 +89,7 @@ proxies:
       max-early-data: 2560
       path: "/eyJqdW5rIjoiMlRCWkxtOEZXanBHN21WMyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjIxMi4xOTIuNi4xMTgiXX0="
   - ip-version: "ipv4-prefer"
-    name: "سرور گیمینگ سرور حجم ۱۰ گیگ👾🎮🇦🇪" 
+    name: "سرور گیمینگ سرور حجم ۱۰ گیگ👾🎮🆒" 
     network: "ws"
     packet-encoding: ""
     port: 80
@@ -153,7 +153,7 @@ proxies:
       max-early-data: 2560
       path: "/eyJqdW5rIjoicm1JY0lPWWNJRSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjIxMi4xOTIuNi4xMTgiXX0="
   - ip-version: "ipv4-prefer"
-    name: "سرور گیمینگ سرور حجم ۱۰ گیگ👾🎮🇦🇪"
+    name: "سرور گیمینگ سرور حجم ۱۰ گیگ👾🎮🐍"
     network: "ws"
     packet-encoding: ""
     port: 80
@@ -169,7 +169,7 @@ proxies:
       max-early-data: 2560
       path: "/eyJqdW5rIjoienlZMUhVUlhmIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMjEyLjE5Mi42LjExOCJdfQ=="
   - ip-version: "ipv4-prefer"
-    name: "سرور گیمینگ سرور حجم ۱۰ گیگ👾🎮🇦🇪"
+    name: "سرور گیمینگ سرور حجم ۱۰ گیگ👾🎮🧦"
     network: "ws"
     packet-encoding: ""
     port: 80
@@ -185,7 +185,7 @@ proxies:
       max-early-data: 2560
       path: "/eyJqdW5rIjoiaGhlWlhOcWtmMzY0NSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjIxMi4xOTIuNi4xMTgiXX0="
   - ip-version: "ipv4-prefer"
-    name: "سرور گیمینگ سرور حجم ۱۰ گیگ👾🎮🇦🇪"
+    name: "سرور گیمینگ سرور حجم ۱۰ گیگ👾🎮🆒"
     network: "ws"
     packet-encoding: ""
     port: 80
