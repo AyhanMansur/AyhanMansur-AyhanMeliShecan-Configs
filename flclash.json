@@ -105,7 +105,7 @@ proxies:
       max-early-data: 2560
       path: "/eyJqdW5rIjoicGdyNkhGbWZwQWVVIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMjEyLjE5Mi42LjExOCJdfQ=="
   - ip-version: "ipv4-prefer"
-    name: "سرور گیمینگ سرور حجم ۱۰ گیگ👾🎮🇦🇪"
+    name: "سرور گیمینگ سرور حجم ۱۰ گیگ👾"
     network: "ws"
     packet-encoding: ""
     port: 80
@@ -137,7 +137,7 @@ proxies:
       max-early-data: 2560
       path: "/eyJqdW5rIjoiT1dWRlJMTjU1M3llIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMjEyLjE5Mi42LjExOCJdfQ=="
   - ip-version: "ipv4-prefer"
-    name: "سرور گیمینگ سرور حجم ۱۰ گیگ👾🎮🧑‍💻"
+    name: "سرور گیمینگ سرور حجم ۱۰ گیگ👾🎮🗺️🇮🇷"
     network: "ws"
     packet-encoding: ""
     port: 80
@@ -1803,7 +1803,7 @@ proxy-groups:
   - name: "✅ Selector"
     proxies:
       - "💦 Best Ping 🚀"
-      - "💦 1 - VLESS - Domain : 80"
+      - "سرور گیمینگ سرور حجم ۱۰ گیگ👾🎮🌿"
       - "💦 2 - VLESS - Domain : 80"
       - "💦 3 - VLESS - IPv4 : 80"
       - "💦 4 - VLESS - IPv4 : 80"
@@ -1884,7 +1884,7 @@ proxy-groups:
   - interval: 30
     name: "💦 Best Ping 🚀"
     proxies:
-      - "💦 1 - VLESS - Domain : 80"
+      - "سرور گیمینگ سرور حجم ۱۰ گیگ👾🎮🌿"
       - "💦 2 - VLESS - Domain : 80"
       - "💦 3 - VLESS - IPv4 : 80"
       - "💦 4 - VLESS - IPv4 : 80"
