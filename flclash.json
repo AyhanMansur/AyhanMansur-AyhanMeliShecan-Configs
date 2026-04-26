@@ -121,7 +121,7 @@ proxies:
       max-early-data: 2560
       path: "/eyJqdW5rIjoibHdjZHJTd0doMVZXekIiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIyMTIuMTkyLjYuMTE4Il19"
   - ip-version: "ipv4-prefer"
-    name: "سرور گیمینگ سرور حجم ۱۰ گیگ👾🎮🇦🇪"
+    name: "سرور گیمینگ سرور حجم ۱۰ گیگ👾🎮🧑‍🏫"
     network: "ws"
     packet-encoding: ""
     port: 80
@@ -137,7 +137,7 @@ proxies:
       max-early-data: 2560
       path: "/eyJqdW5rIjoiT1dWRlJMTjU1M3llIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMjEyLjE5Mi42LjExOCJdfQ=="
   - ip-version: "ipv4-prefer"
-    name: "سرور گیمینگ سرور حجم ۱۰ گیگ👾🎮🇦🇪"
+    name: "سرور گیمینگ سرور حجم ۱۰ گیگ👾🎮🧑‍💻"
     network: "ws"
     packet-encoding: ""
     port: 80
@@ -169,7 +169,7 @@ proxies:
       max-early-data: 2560
       path: "/eyJqdW5rIjoienlZMUhVUlhmIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMjEyLjE5Mi42LjExOCJdfQ=="
   - ip-version: "ipv4-prefer"
-    name: "سرور گیمینگ سرور حجم ۱۰ گیگ👾🎮🧦"
+    name: "سرور گیمینگ سرور حجم ۱۰ گیگ👾🎮🛠️"
     network: "ws"
     packet-encoding: ""
     port: 80
