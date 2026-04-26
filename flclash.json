@@ -73,7 +73,7 @@ rule-providers:
     url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/openai.yaml"
 proxies:
   - ip-version: "ipv4-prefer"
-    name: "💦 1 - VLESS - Domain : 80"
+    name: "سرور گیمینگ سرور حجم ۱۰ گیگ👾🎮🇦🇪"
     network: "ws"
     packet-encoding: ""
     port: 80
