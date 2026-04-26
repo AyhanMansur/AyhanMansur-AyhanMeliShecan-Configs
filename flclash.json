@@ -1,0 +1,2114 @@
+port: 0
+socks-port: 0
+redir-port: 0
+tproxy-port: 0
+mixed-port: 7890
+ss-config: ""
+vmess-config: ""
+inbound-tfo: false
+inbound-mptcp: false
+authentication: []
+skip-auth-prefixes: null
+lan-allowed-ips:
+  - "0.0.0.0/0"
+  - "::/0"
+lan-disallowed-ips: null
+allow-lan: true
+bind-address: "*"
+mode: "global"
+unified-delay: true
+log-level: "error"
+ipv6: false
+external-controller: ""
+external-controller-pipe: ""
+external-controller-unix: ""
+external-controller-tls: ""
+external-controller-cors:
+  allow-origins:
+    - "*"
+  allow-private-network: true
+external-ui: ""
+external-ui-url: ""
+external-ui-name: ""
+external-doh-server: ""
+secret: ""
+interface-name: ""
+routing-mark: 0
+tunnels: null
+geo-auto-update: true
+geo-update-interval: 168
+geodata-mode: false
+geodata-loader: "memconservative"
+geosite-matcher: ""
+tcp-concurrent: true
+find-process-mode: "always"
+global-client-fingerprint: ""
+global-ua: "FlClash/v0.8.92 clash-verge Platform/android"
+etag-support: true
+keep-alive-idle: 10
+keep-alive-interval: 30
+disable-keep-alive: false
+proxy-providers: null
+rule-providers:
+  category-ads-all:
+    behavior: "domain"
+    format: "text"
+    interval: 86400
+    path: "/data/user/0/com.follow.clash/files/profiles/providers/285340062692937728/rules/8db1818bb1784a10978695c997cb9a27"
+    type: "http"
+    url: "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/category-ads-all.txt"
+  nsfw:
+    behavior: "domain"
+    format: "text"
+    interval: 86400
+    path: "/data/user/0/com.follow.clash/files/profiles/providers/285340062692937728/rules/50d29146cac4a961b399f3629c73febf"
+    type: "http"
+    url: "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/nsfw.txt"
+  openai:
+    behavior: "domain"
+    format: "yaml"
+    interval: 86400
+    path: "/data/user/0/com.follow.clash/files/profiles/providers/285340062692937728/rules/1fd12fdb1eb205c50a63fb6824d1e571"
+    type: "http"
+    url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/openai.yaml"
+proxies:
+  - ip-version: "ipv4-prefer"
+    name: "💦 1 - VLESS - Domain : 80"
+    network: "ws"
+    packet-encoding: ""
+    port: 80
+    server: "ayhanmelishacan.umc-mansur13.workers.dev"
+    tfo: true
+    type: "vless"
+    udp: false
+    uuid: "7ff816d4-7ebe-42b3-8898-481df7c032ca"
+    ws-opts:
+      early-data-header-name: "Sec-WebSocket-Protocol"
+      headers:
+        Host: "ayhanmelishacan.umc-mansur13.workers.dev"
+      max-early-data: 2560
+      path: "/eyJqdW5rIjoiMlRCWkxtOEZXanBHN21WMyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjIxMi4xOTIuNi4xMTgiXX0="
+  - ip-version: "ipv4-prefer"
+    name: "💦 2 - VLESS - Domain : 80"
+    network: "ws"
+    packet-encoding: ""
+    port: 80
+    server: "www.speedtest.net"
+    tfo: true
+    type: "vless"
+    udp: false
+    uuid: "7ff816d4-7ebe-42b3-8898-481df7c032ca"
+    ws-opts:
+      early-data-header-name: "Sec-WebSocket-Protocol"
+      headers:
+        Host: "ayhanmelishacan.umc-mansur13.workers.dev"
+      max-early-data: 2560
+      path: "/eyJqdW5rIjoicGdyNkhGbWZwQWVVIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMjEyLjE5Mi42LjExOCJdfQ=="
+  - ip-version: "ipv4-prefer"
+    name: "💦 3 - VLESS - IPv4 : 80"
+    network: "ws"
+    packet-encoding: ""
+    port: 80
+    server: "188.114.96.3"
+    tfo: true
+    type: "vless"
+    udp: false
+    uuid: "7ff816d4-7ebe-42b3-8898-481df7c032ca"
+    ws-opts:
+      early-data-header-name: "Sec-WebSocket-Protocol"
+      headers:
+        Host: "ayhanmelishacan.umc-mansur13.workers.dev"
+      max-early-data: 2560
+      path: "/eyJqdW5rIjoibHdjZHJTd0doMVZXekIiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIyMTIuMTkyLjYuMTE4Il19"
+  - ip-version: "ipv4-prefer"
+    name: "💦 4 - VLESS - IPv4 : 80"
+    network: "ws"
+    packet-encoding: ""
+    port: 80
+    server: "188.114.97.3"
+    tfo: true
+    type: "vless"
+    udp: false
+    uuid: "7ff816d4-7ebe-42b3-8898-481df7c032ca"
+    ws-opts:
+      early-data-header-name: "Sec-WebSocket-Protocol"
+      headers:
+        Host: "ayhanmelishacan.umc-mansur13.workers.dev"
+      max-early-data: 2560
+      path: "/eyJqdW5rIjoiT1dWRlJMTjU1M3llIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMjEyLjE5Mi42LjExOCJdfQ=="
+  - ip-version: "ipv4-prefer"
+    name: "💦 5 - VLESS - IPv6 : 80"
+    network: "ws"
+    packet-encoding: ""
+    port: 80
+    server: "2a06:98c1:3120::3"
+    tfo: true
+    type: "vless"
+    udp: false
+    uuid: "7ff816d4-7ebe-42b3-8898-481df7c032ca"
+    ws-opts:
+      early-data-header-name: "Sec-WebSocket-Protocol"
+      headers:
+        Host: "ayhanmelishacan.umc-mansur13.workers.dev"
+      max-early-data: 2560
+      path: "/eyJqdW5rIjoicm1JY0lPWWNJRSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjIxMi4xOTIuNi4xMTgiXX0="
+  - ip-version: "ipv4-prefer"
+    name: "💦 6 - VLESS - IPv6 : 80"
+    network: "ws"
+    packet-encoding: ""
+    port: 80
+    server: "2a06:98c1:3121::3"
+    tfo: true
+    type: "vless"
+    udp: false
+    uuid: "7ff816d4-7ebe-42b3-8898-481df7c032ca"
+    ws-opts:
+      early-data-header-name: "Sec-WebSocket-Protocol"
+      headers:
+        Host: "ayhanmelishacan.umc-mansur13.workers.dev"
+      max-early-data: 2560
+      path: "/eyJqdW5rIjoienlZMUhVUlhmIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMjEyLjE5Mi42LjExOCJdfQ=="
+  - ip-version: "ipv4-prefer"
+    name: "💦 7 - VLESS - Clean IP : 80"
+    network: "ws"
+    packet-encoding: ""
+    port: 80
+    server: "109.104.153.94"
+    tfo: true
+    type: "vless"
+    udp: false
+    uuid: "7ff816d4-7ebe-42b3-8898-481df7c032ca"
+    ws-opts:
+      early-data-header-name: "Sec-WebSocket-Protocol"
+      headers:
+        Host: "ayhanmelishacan.umc-mansur13.workers.dev"
+      max-early-data: 2560
+      path: "/eyJqdW5rIjoiaGhlWlhOcWtmMzY0NSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjIxMi4xOTIuNi4xMTgiXX0="
+  - ip-version: "ipv4-prefer"
+    name: "💦 8 - VLESS - Clean IP : 80"
+    network: "ws"
+    packet-encoding: ""
+    port: 80
+    server: "chatgpt.com"
+    tfo: true
+    type: "vless"
+    udp: false
+    uuid: "7ff816d4-7ebe-42b3-8898-481df7c032ca"
+    ws-opts:
+      early-data-header-name: "Sec-WebSocket-Protocol"
+      headers:
+        Host: "ayhanmelishacan.umc-mansur13.workers.dev"
+      max-early-data: 2560
+      path: "/eyJqdW5rIjoiZnlMRExxaUdGZlUiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIyMTIuMTkyLjYuMTE4Il19"
+  - ip-version: "ipv4-prefer"
+    name: "💦 9 - VLESS - Clean IP : 80"
+    network: "ws"
+    packet-encoding: ""
+    port: 80
+    server: "147.45.174.211"
+    tfo: true
+    type: "vless"
+    udp: false
+    uuid: "7ff816d4-7ebe-42b3-8898-481df7c032ca"
+    ws-opts:
+      early-data-header-name: "Sec-WebSocket-Protocol"
+      headers:
+        Host: "ayhanmelishacan.umc-mansur13.workers.dev"
+      max-early-data: 2560
+      path: "/eyJqdW5rIjoiM2x0amxsRnpQVXZEVGQiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIyMTIuMTkyLjYuMTE4Il19"
+  - ip-version: "ipv4-prefer"
+    name: "💦 10 - VLESS - Clean IP : 80"
+    network: "ws"
+    packet-encoding: ""
+    port: 80
+    server: "172.66.160.165"
+    tfo: true
+    type: "vless"
+    udp: false
+    uuid: "7ff816d4-7ebe-42b3-8898-481df7c032ca"
+    ws-opts:
+      early-data-header-name: "Sec-WebSocket-Protocol"
+      headers:
+        Host: "ayhanmelishacan.umc-mansur13.workers.dev"
+      max-early-data: 2560
+      path: "/eyJqdW5rIjoiQmQ3SkRhVEJGeUNGIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMjEyLjE5Mi42LjExOCJdfQ=="
+  - ip-version: "ipv4-prefer"
+    name: "💦 11 - VLESS C - Domain : 80"
+    network: "ws"
+    packet-encoding: ""
+    port: 80
+    server: "morning-fire-1e0d.umc-mansur13.workers.dev"
+    tfo: true
+    type: "vless"
+    udp: false
+    uuid: "7ff816d4-7ebe-42b3-8898-481df7c032ca"
+    ws-opts:
+      early-data-header-name: "Sec-WebSocket-Protocol"
+      headers:
+        Host: "ayhanmelishacan.umc-mansur13.workers.dev"
+      max-early-data: 2560
+      path: "/eyJqdW5rIjoiZGxHNlB4UGIiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIyMTIuMTkyLjYuMTE4Il19"
+  - alpn:
+      - "http/1.1"
+    client-fingerprint: "firefox"
+    ech-opts:
+      enable: true
+    ip-version: "ipv4-prefer"
+    name: "💦 12 - VLESS - Domain : 443"
+    network: "ws"
+    packet-encoding: ""
+    port: 443
+    server: "ayhanmelishacan.umc-mansur13.workers.dev"
+    servername: "AYhAnmElIsHaCAN.Umc-mAnsuR13.wORkErS.dEv"
+    skip-cert-verify: false
+    tfo: true
+    tls: true
+    type: "vless"
+    udp: false
+    uuid: "7ff816d4-7ebe-42b3-8898-481df7c032ca"
+    ws-opts:
+      early-data-header-name: "Sec-WebSocket-Protocol"
+      headers:
+        Host: "ayhanmelishacan.umc-mansur13.workers.dev"
+      max-early-data: 2560
+      path: "/eyJqdW5rIjoiRnprdHU0bmc1cThjQUZTdyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjIxMi4xOTIuNi4xMTgiXX0="
+  - alpn:
+      - "http/1.1"
+    client-fingerprint: "firefox"
+    ech-opts:
+      enable: true
+    ip-version: "ipv4-prefer"
+    name: "💦 13 - VLESS - Domain : 443"
+    network: "ws"
+    packet-encoding: ""
+    port: 443
+    server: "www.speedtest.net"
+    servername: "AyhAnMeLISHaCAN.uMC-mAnSUr13.WorkErS.DEV"
+    skip-cert-verify: false
+    tfo: true
+    tls: true
+    type: "vless"
+    udp: false
+    uuid: "7ff816d4-7ebe-42b3-8898-481df7c032ca"
+    ws-opts:
+      early-data-header-name: "Sec-WebSocket-Protocol"
+      headers:
+        Host: "ayhanmelishacan.umc-mansur13.workers.dev"
+      max-early-data: 2560
+      path: "/eyJqdW5rIjoiTk1zR2Q4T0pJeGVBIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMjEyLjE5Mi42LjExOCJdfQ=="
+  - alpn:
+      - "http/1.1"
+    client-fingerprint: "firefox"
+    ech-opts:
+      enable: true
+    ip-version: "ipv4-prefer"
+    name: "💦 14 - VLESS - IPv4 : 443"
+    network: "ws"
+    packet-encoding: ""
+    port: 443
+    server: "188.114.96.3"
+    servername: "aYhAnmELIshaCAn.Umc-mANsUR13.WORkERs.DEV"
+    skip-cert-verify: false
+    tfo: true
+    tls: true
+    type: "vless"
+    udp: false
+    uuid: "7ff816d4-7ebe-42b3-8898-481df7c032ca"
+    ws-opts:
+      early-data-header-name: "Sec-WebSocket-Protocol"
+      headers:
+        Host: "ayhanmelishacan.umc-mansur13.workers.dev"
+      max-early-data: 2560
+      path: "/eyJqdW5rIjoiMjBoVmxlM0k4WEhSIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMjEyLjE5Mi42LjExOCJdfQ=="
+  - alpn:
+      - "http/1.1"
+    client-fingerprint: "firefox"
+    ech-opts:
+      enable: true
+    ip-version: "ipv4-prefer"
+    name: "💦 15 - VLESS - IPv4 : 443"
+    network: "ws"
+    packet-encoding: ""
+    port: 443
+    server: "188.114.97.3"
+    servername: "aYhAnmElishACan.Umc-maNSur13.wORkERS.deV"
+    skip-cert-verify: false
+    tfo: true
+    tls: true
+    type: "vless"
+    udp: false
+    uuid: "7ff816d4-7ebe-42b3-8898-481df7c032ca"
+    ws-opts:
+      early-data-header-name: "Sec-WebSocket-Protocol"
+      headers:
+        Host: "ayhanmelishacan.umc-mansur13.workers.dev"
+      max-early-data: 2560
+      path: "/eyJqdW5rIjoiNU5YUDJQWFZUQ3RKV1UiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIyMTIuMTkyLjYuMTE4Il19"
+  - alpn:
+      - "http/1.1"
+    client-fingerprint: "firefox"
+    ech-opts:
+      enable: true
+    ip-version: "ipv4-prefer"
+    name: "💦 16 - VLESS - IPv6 : 443"
+    network: "ws"
+    packet-encoding: ""
+    port: 443
+    server: "2a06:98c1:3120::3"
+    servername: "AYHaNMELishaCan.UmC-MANsUr13.WORKers.deV"
+    skip-cert-verify: false
+    tfo: true
+    tls: true
+    type: "vless"
+    udp: false
+    uuid: "7ff816d4-7ebe-42b3-8898-481df7c032ca"
+    ws-opts:
+      early-data-header-name: "Sec-WebSocket-Protocol"
+      headers:
+        Host: "ayhanmelishacan.umc-mansur13.workers.dev"
+      max-early-data: 2560
+      path: "/eyJqdW5rIjoiQUFDMnNxdllmZmQiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIyMTIuMTkyLjYuMTE4Il19"
+  - alpn:
+      - "http/1.1"
+    client-fingerprint: "firefox"
+    ech-opts:
+      enable: true
+    ip-version: "ipv4-prefer"
+    name: "💦 17 - VLESS - IPv6 : 443"
+    network: "ws"
+    packet-encoding: ""
+    port: 443
+    server: "2a06:98c1:3121::3"
+    servername: "AYHanMelisHACAn.UmC-mANsUr13.wORkERS.dEv"
+    skip-cert-verify: false
+    tfo: true
+    tls: true
+    type: "vless"
+    udp: false
+    uuid: "7ff816d4-7ebe-42b3-8898-481df7c032ca"
+    ws-opts:
+      early-data-header-name: "Sec-WebSocket-Protocol"
+      headers:
+        Host: "ayhanmelishacan.umc-mansur13.workers.dev"
+      max-early-data: 2560
+      path: "/eyJqdW5rIjoiQUJqd3lzNTEzTnpFMCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjIxMi4xOTIuNi4xMTgiXX0="
+  - alpn:
+      - "http/1.1"
+    client-fingerprint: "firefox"
+    ech-opts:
+      enable: true
+    ip-version: "ipv4-prefer"
+    name: "💦 18 - VLESS - Clean IP : 443"
+    network: "ws"
+    packet-encoding: ""
+    port: 443
+    server: "109.104.153.94"
+    servername: "AyHANmeliSHaCAN.UmC-MAnsUr13.wORkerS.DeV"
+    skip-cert-verify: false
+    tfo: true
+    tls: true
+    type: "vless"
+    udp: false
+    uuid: "7ff816d4-7ebe-42b3-8898-481df7c032ca"
+    ws-opts:
+      early-data-header-name: "Sec-WebSocket-Protocol"
+      headers:
+        Host: "ayhanmelishacan.umc-mansur13.workers.dev"
+      max-early-data: 2560
+      path: "/eyJqdW5rIjoiSjl6NlhPbGlwR0w4RDJGUCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjIxMi4xOTIuNi4xMTgiXX0="
+  - alpn:
+      - "http/1.1"
+    client-fingerprint: "firefox"
+    ech-opts:
+      enable: true
+    ip-version: "ipv4-prefer"
+    name: "💦 19 - VLESS - Clean IP : 443"
+    network: "ws"
+    packet-encoding: ""
+    port: 443
+    server: "chatgpt.com"
+    servername: "aYHANMeLiSHaCAn.umC-MaNSur13.worKErS.DeV"
+    skip-cert-verify: false
+    tfo: true
+    tls: true
+    type: "vless"
+    udp: false
+    uuid: "7ff816d4-7ebe-42b3-8898-481df7c032ca"
+    ws-opts:
+      early-data-header-name: "Sec-WebSocket-Protocol"
+      headers:
+        Host: "ayhanmelishacan.umc-mansur13.workers.dev"
+      max-early-data: 2560
+      path: "/eyJqdW5rIjoidUZUc0RhdFdvbnUiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIyMTIuMTkyLjYuMTE4Il19"
+  - alpn:
+      - "http/1.1"
+    client-fingerprint: "firefox"
+    ech-opts:
+      enable: true
+    ip-version: "ipv4-prefer"
+    name: "💦 20 - VLESS - Clean IP : 443"
+    network: "ws"
+    packet-encoding: ""
+    port: 443
+    server: "147.45.174.211"
+    servername: "AYhAnmeLiSHacAN.uMc-mANSUr13.wORkErS.deV"
+    skip-cert-verify: false
+    tfo: true
+    tls: true
+    type: "vless"
+    udp: false
+    uuid: "7ff816d4-7ebe-42b3-8898-481df7c032ca"
+    ws-opts:
+      early-data-header-name: "Sec-WebSocket-Protocol"
+      headers:
+        Host: "ayhanmelishacan.umc-mansur13.workers.dev"
+      max-early-data: 2560
+      path: "/eyJqdW5rIjoiS0NyYXdDNnlWIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMjEyLjE5Mi42LjExOCJdfQ=="
+  - alpn:
+      - "http/1.1"
+    client-fingerprint: "firefox"
+    ech-opts:
+      enable: true
+    ip-version: "ipv4-prefer"
+    name: "💦 21 - VLESS - Clean IP : 443"
+    network: "ws"
+    packet-encoding: ""
+    port: 443
+    server: "172.66.160.165"
+    servername: "ayHaNmElIShACAn.uMC-MaNsUR13.WOrkeRS.DEV"
+    skip-cert-verify: false
+    tfo: true
+    tls: true
+    type: "vless"
+    udp: false
+    uuid: "7ff816d4-7ebe-42b3-8898-481df7c032ca"
+    ws-opts:
+      early-data-header-name: "Sec-WebSocket-Protocol"
+      headers:
+        Host: "ayhanmelishacan.umc-mansur13.workers.dev"
+      max-early-data: 2560
+      path: "/eyJqdW5rIjoiUzIwTmZWZVFRTjEiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIyMTIuMTkyLjYuMTE4Il19"
+  - alpn:
+      - "http/1.1"
+    client-fingerprint: "firefox"
+    ech-opts:
+      enable: true
+    ip-version: "ipv4-prefer"
+    name: "💦 22 - VLESS C - Domain : 443"
+    network: "ws"
+    packet-encoding: ""
+    port: 443
+    server: "morning-fire-1e0d.umc-mansur13.workers.dev"
+    servername: "morning-fire-1e0d.umc-mansur13.workers.dev"
+    skip-cert-verify: true
+    tfo: true
+    tls: true
+    type: "vless"
+    udp: false
+    uuid: "7ff816d4-7ebe-42b3-8898-481df7c032ca"
+    ws-opts:
+      early-data-header-name: "Sec-WebSocket-Protocol"
+      headers:
+        Host: "ayhanmelishacan.umc-mansur13.workers.dev"
+      max-early-data: 2560
+      path: "/eyJqdW5rIjoiOWV0azNrNkpSRjJYeVFnIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMjEyLjE5Mi42LjExOCJdfQ=="
+  - alpn:
+      - "http/1.1"
+    client-fingerprint: "firefox"
+    ech-opts:
+      enable: true
+    ip-version: "ipv4-prefer"
+    name: "💦 23 - VLESS - Domain : 8443"
+    network: "ws"
+    packet-encoding: ""
+    port: 8443
+    server: "ayhanmelishacan.umc-mansur13.workers.dev"
+    servername: "AyhaNmelIshacAn.umC-MaNSuR13.WoRkERs.DeV"
+    skip-cert-verify: false
+    tfo: true
+    tls: true
+    type: "vless"
+    udp: false
+    uuid: "7ff816d4-7ebe-42b3-8898-481df7c032ca"
+    ws-opts:
+      early-data-header-name: "Sec-WebSocket-Protocol"
+      headers:
+        Host: "ayhanmelishacan.umc-mansur13.workers.dev"
+      max-early-data: 2560
+      path: "/eyJqdW5rIjoiQ1ZaU2xFajZ0VlYiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIyMTIuMTkyLjYuMTE4Il19"
+  - alpn:
+      - "http/1.1"
+    client-fingerprint: "firefox"
+    ech-opts:
+      enable: true
+    ip-version: "ipv4-prefer"
+    name: "💦 24 - VLESS - Domain : 8443"
+    network: "ws"
+    packet-encoding: ""
+    port: 8443
+    server: "www.speedtest.net"
+    servername: "AYhaNmelIshAcAn.UmC-MANSUR13.WoRkeRs.dev"
+    skip-cert-verify: false
+    tfo: true
+    tls: true
+    type: "vless"
+    udp: false
+    uuid: "7ff816d4-7ebe-42b3-8898-481df7c032ca"
+    ws-opts:
+      early-data-header-name: "Sec-WebSocket-Protocol"
+      headers:
+        Host: "ayhanmelishacan.umc-mansur13.workers.dev"
+      max-early-data: 2560
+      path: "/eyJqdW5rIjoibmU5R2E1em1IVkRaZ0hOTSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjIxMi4xOTIuNi4xMTgiXX0="
+  - alpn:
+      - "http/1.1"
+    client-fingerprint: "firefox"
+    ech-opts:
+      enable: true
+    ip-version: "ipv4-prefer"
+    name: "💦 25 - VLESS - IPv4 : 8443"
+    network: "ws"
+    packet-encoding: ""
+    port: 8443
+    server: "188.114.96.3"
+    servername: "AyhANMeliSHAcaN.UMc-MAnSuR13.WOrKErS.DEv"
+    skip-cert-verify: false
+    tfo: true
+    tls: true
+    type: "vless"
+    udp: false
+    uuid: "7ff816d4-7ebe-42b3-8898-481df7c032ca"
+    ws-opts:
+      early-data-header-name: "Sec-WebSocket-Protocol"
+      headers:
+        Host: "ayhanmelishacan.umc-mansur13.workers.dev"
+      max-early-data: 2560
+      path: "/eyJqdW5rIjoiekZLTjRZSXdNMWU4WTIiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIyMTIuMTkyLjYuMTE4Il19"
+  - alpn:
+      - "http/1.1"
+    client-fingerprint: "firefox"
+    ech-opts:
+      enable: true
+    ip-version: "ipv4-prefer"
+    name: "💦 26 - VLESS - IPv4 : 8443"
+    network: "ws"
+    packet-encoding: ""
+    port: 8443
+    server: "188.114.97.3"
+    servername: "aYhaNMelisHAcan.UMC-MansUr13.woRKeRs.Dev"
+    skip-cert-verify: false
+    tfo: true
+    tls: true
+    type: "vless"
+    udp: false
+    uuid: "7ff816d4-7ebe-42b3-8898-481df7c032ca"
+    ws-opts:
+      early-data-header-name: "Sec-WebSocket-Protocol"
+      headers:
+        Host: "ayhanmelishacan.umc-mansur13.workers.dev"
+      max-early-data: 2560
+      path: "/eyJqdW5rIjoid1ZkZnZmQjJzNyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjIxMi4xOTIuNi4xMTgiXX0="
+  - alpn:
+      - "http/1.1"
+    client-fingerprint: "firefox"
+    ech-opts:
+      enable: true
+    ip-version: "ipv4-prefer"
+    name: "💦 27 - VLESS - IPv6 : 8443"
+    network: "ws"
+    packet-encoding: ""
+    port: 8443
+    server: "2a06:98c1:3120::3"
+    servername: "AyHaNMeLisHACAn.uMC-MAnsUr13.WOrKErS.dEV"
+    skip-cert-verify: false
+    tfo: true
+    tls: true
+    type: "vless"
+    udp: false
+    uuid: "7ff816d4-7ebe-42b3-8898-481df7c032ca"
+    ws-opts:
+      early-data-header-name: "Sec-WebSocket-Protocol"
+      headers:
+        Host: "ayhanmelishacan.umc-mansur13.workers.dev"
+      max-early-data: 2560
+      path: "/eyJqdW5rIjoiUWNtT2t2NmJ0YnhwYTYiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIyMTIuMTkyLjYuMTE4Il19"
+  - alpn:
+      - "http/1.1"
+    client-fingerprint: "firefox"
+    ech-opts:
+      enable: true
+    ip-version: "ipv4-prefer"
+    name: "💦 28 - VLESS - IPv6 : 8443"
+    network: "ws"
+    packet-encoding: ""
+    port: 8443
+    server: "2a06:98c1:3121::3"
+    servername: "ayHaNMELiShaCaN.umc-MAnsUr13.workERs.dEV"
+    skip-cert-verify: false
+    tfo: true
+    tls: true
+    type: "vless"
+    udp: false
+    uuid: "7ff816d4-7ebe-42b3-8898-481df7c032ca"
+    ws-opts:
+      early-data-header-name: "Sec-WebSocket-Protocol"
+      headers:
+        Host: "ayhanmelishacan.umc-mansur13.workers.dev"
+      max-early-data: 2560
+      path: "/eyJqdW5rIjoiY09QWkpLa29LTjN4SFFrayIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjIxMi4xOTIuNi4xMTgiXX0="
+  - alpn:
+      - "http/1.1"
+    client-fingerprint: "firefox"
+    ech-opts:
+      enable: true
+    ip-version: "ipv4-prefer"
+    name: "💦 29 - VLESS - Clean IP : 8443"
+    network: "ws"
+    packet-encoding: ""
+    port: 8443
+    server: "109.104.153.94"
+    servername: "ayhANMELIshacAN.UMc-Mansur13.WOrkERS.DeV"
+    skip-cert-verify: false
+    tfo: true
+    tls: true
+    type: "vless"
+    udp: false
+    uuid: "7ff816d4-7ebe-42b3-8898-481df7c032ca"
+    ws-opts:
+      early-data-header-name: "Sec-WebSocket-Protocol"
+      headers:
+        Host: "ayhanmelishacan.umc-mansur13.workers.dev"
+      max-early-data: 2560
+      path: "/eyJqdW5rIjoibnl6MEdNZk1ZMlFJY281VCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjIxMi4xOTIuNi4xMTgiXX0="
+  - alpn:
+      - "http/1.1"
+    client-fingerprint: "firefox"
+    ech-opts:
+      enable: true
+    ip-version: "ipv4-prefer"
+    name: "💦 30 - VLESS - Clean IP : 8443"
+    network: "ws"
+    packet-encoding: ""
+    port: 8443
+    server: "chatgpt.com"
+    servername: "AYHAnmELiSHAcAN.uMc-Mansur13.wORkErs.deV"
+    skip-cert-verify: false
+    tfo: true
+    tls: true
+    type: "vless"
+    udp: false
+    uuid: "7ff816d4-7ebe-42b3-8898-481df7c032ca"
+    ws-opts:
+      early-data-header-name: "Sec-WebSocket-Protocol"
+      headers:
+        Host: "ayhanmelishacan.umc-mansur13.workers.dev"
+      max-early-data: 2560
+      path: "/eyJqdW5rIjoiWVF0ZmN4RGlrdDQiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIyMTIuMTkyLjYuMTE4Il19"
+  - alpn:
+      - "http/1.1"
+    client-fingerprint: "firefox"
+    ech-opts:
+      enable: true
+    ip-version: "ipv4-prefer"
+    name: "💦 31 - VLESS - Clean IP : 8443"
+    network: "ws"
+    packet-encoding: ""
+    port: 8443
+    server: "147.45.174.211"
+    servername: "ayHANMeliShaCaN.UmC-mAnsuR13.worKeRS.dEV"
+    skip-cert-verify: false
+    tfo: true
+    tls: true
+    type: "vless"
+    udp: false
+    uuid: "7ff816d4-7ebe-42b3-8898-481df7c032ca"
+    ws-opts:
+      early-data-header-name: "Sec-WebSocket-Protocol"
+      headers:
+        Host: "ayhanmelishacan.umc-mansur13.workers.dev"
+      max-early-data: 2560
+      path: "/eyJqdW5rIjoiUWN0aEliR2dmaEIiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIyMTIuMTkyLjYuMTE4Il19"
+  - alpn:
+      - "http/1.1"
+    client-fingerprint: "firefox"
+    ech-opts:
+      enable: true
+    ip-version: "ipv4-prefer"
+    name: "💦 32 - VLESS - Clean IP : 8443"
+    network: "ws"
+    packet-encoding: ""
+    port: 8443
+    server: "172.66.160.165"
+    servername: "aYhANmeLishAcAn.UMC-MAnsur13.wORkErS.DeV"
+    skip-cert-verify: false
+    tfo: true
+    tls: true
+    type: "vless"
+    udp: false
+    uuid: "7ff816d4-7ebe-42b3-8898-481df7c032ca"
+    ws-opts:
+      early-data-header-name: "Sec-WebSocket-Protocol"
+      headers:
+        Host: "ayhanmelishacan.umc-mansur13.workers.dev"
+      max-early-data: 2560
+      path: "/eyJqdW5rIjoiQW9MY0NMUnYxbEllQyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjIxMi4xOTIuNi4xMTgiXX0="
+  - alpn:
+      - "http/1.1"
+    client-fingerprint: "firefox"
+    ech-opts:
+      enable: true
+    ip-version: "ipv4-prefer"
+    name: "💦 33 - VLESS C - Domain : 8443"
+    network: "ws"
+    packet-encoding: ""
+    port: 8443
+    server: "morning-fire-1e0d.umc-mansur13.workers.dev"
+    servername: "morning-fire-1e0d.umc-mansur13.workers.dev"
+    skip-cert-verify: true
+    tfo: true
+    tls: true
+    type: "vless"
+    udp: false
+    uuid: "7ff816d4-7ebe-42b3-8898-481df7c032ca"
+    ws-opts:
+      early-data-header-name: "Sec-WebSocket-Protocol"
+      headers:
+        Host: "ayhanmelishacan.umc-mansur13.workers.dev"
+      max-early-data: 2560
+      path: "/eyJqdW5rIjoiSFBRWnVBZTgiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIyMTIuMTkyLjYuMTE4Il19"
+  - alpn:
+      - "http/1.1"
+    client-fingerprint: "firefox"
+    ech-opts:
+      enable: true
+    ip-version: "ipv4-prefer"
+    name: "💦 34 - VLESS - Domain : 2083"
+    network: "ws"
+    packet-encoding: ""
+    port: 2083
+    server: "ayhanmelishacan.umc-mansur13.workers.dev"
+    servername: "aYHaNmeLiShACAN.umc-MaNsUR13.WoRKeRs.dev"
+    skip-cert-verify: false
+    tfo: true
+    tls: true
+    type: "vless"
+    udp: false
+    uuid: "7ff816d4-7ebe-42b3-8898-481df7c032ca"
+    ws-opts:
+      early-data-header-name: "Sec-WebSocket-Protocol"
+      headers:
+        Host: "ayhanmelishacan.umc-mansur13.workers.dev"
+      max-early-data: 2560
+      path: "/eyJqdW5rIjoiaHpIbTdBY1VIbjk2S2QiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIyMTIuMTkyLjYuMTE4Il19"
+  - alpn:
+      - "http/1.1"
+    client-fingerprint: "firefox"
+    ech-opts:
+      enable: true
+    ip-version: "ipv4-prefer"
+    name: "💦 35 - VLESS - Domain : 2083"
+    network: "ws"
+    packet-encoding: ""
+    port: 2083
+    server: "www.speedtest.net"
+    servername: "AYHANmeLisHaCaN.umc-mAnSUR13.wOrkERS.deV"
+    skip-cert-verify: false
+    tfo: true
+    tls: true
+    type: "vless"
+    udp: false
+    uuid: "7ff816d4-7ebe-42b3-8898-481df7c032ca"
+    ws-opts:
+      early-data-header-name: "Sec-WebSocket-Protocol"
+      headers:
+        Host: "ayhanmelishacan.umc-mansur13.workers.dev"
+      max-early-data: 2560
+      path: "/eyJqdW5rIjoiR250dlBhRlZxd21YcDA3IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMjEyLjE5Mi42LjExOCJdfQ=="
+  - alpn:
+      - "http/1.1"
+    client-fingerprint: "firefox"
+    ech-opts:
+      enable: true
+    ip-version: "ipv4-prefer"
+    name: "💦 36 - VLESS - IPv4 : 2083"
+    network: "ws"
+    packet-encoding: ""
+    port: 2083
+    server: "188.114.96.3"
+    servername: "aYhanMElIShaCan.uMC-MAnSUR13.WoRkers.DEV"
+    skip-cert-verify: false
+    tfo: true
+    tls: true
+    type: "vless"
+    udp: false
+    uuid: "7ff816d4-7ebe-42b3-8898-481df7c032ca"
+    ws-opts:
+      early-data-header-name: "Sec-WebSocket-Protocol"
+      headers:
+        Host: "ayhanmelishacan.umc-mansur13.workers.dev"
+      max-early-data: 2560
+      path: "/eyJqdW5rIjoiaERWbzFWOW5WSE9IIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMjEyLjE5Mi42LjExOCJdfQ=="
+  - alpn:
+      - "http/1.1"
+    client-fingerprint: "firefox"
+    ech-opts:
+      enable: true
+    ip-version: "ipv4-prefer"
+    name: "💦 37 - VLESS - IPv4 : 2083"
+    network: "ws"
+    packet-encoding: ""
+    port: 2083
+    server: "188.114.97.3"
+    servername: "ayHANmelishACaN.uMC-mansUr13.WORkERs.dev"
+    skip-cert-verify: false
+    tfo: true
+    tls: true
+    type: "vless"
+    udp: false
+    uuid: "7ff816d4-7ebe-42b3-8898-481df7c032ca"
+    ws-opts:
+      early-data-header-name: "Sec-WebSocket-Protocol"
+      headers:
+        Host: "ayhanmelishacan.umc-mansur13.workers.dev"
+      max-early-data: 2560
+      path: "/eyJqdW5rIjoiME9SVHZXb2loYXhXMVE0IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMjEyLjE5Mi42LjExOCJdfQ=="
+  - alpn:
+      - "http/1.1"
+    client-fingerprint: "firefox"
+    ech-opts:
+      enable: true
+    ip-version: "ipv4-prefer"
+    name: "💦 38 - VLESS - IPv6 : 2083"
+    network: "ws"
+    packet-encoding: ""
+    port: 2083
+    server: "2a06:98c1:3120::3"
+    servername: "aYHANmeLisHacaN.UmC-MaNsUr13.WOrkers.dev"
+    skip-cert-verify: false
+    tfo: true
+    tls: true
+    type: "vless"
+    udp: false
+    uuid: "7ff816d4-7ebe-42b3-8898-481df7c032ca"
+    ws-opts:
+      early-data-header-name: "Sec-WebSocket-Protocol"
+      headers:
+        Host: "ayhanmelishacan.umc-mansur13.workers.dev"
+      max-early-data: 2560
+      path: "/eyJqdW5rIjoiQUd3Z3FNZDNKSUJ4NnlXUCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjIxMi4xOTIuNi4xMTgiXX0="
+  - alpn:
+      - "http/1.1"
+    client-fingerprint: "firefox"
+    ech-opts:
+      enable: true
+    ip-version: "ipv4-prefer"
+    name: "💦 39 - VLESS - IPv6 : 2083"
+    network: "ws"
+    packet-encoding: ""
+    port: 2083
+    server: "2a06:98c1:3121::3"
+    servername: "ayhANMElISHACan.uMc-mAnSUr13.WOrkers.DEv"
+    skip-cert-verify: false
+    tfo: true
+    tls: true
+    type: "vless"
+    udp: false
+    uuid: "7ff816d4-7ebe-42b3-8898-481df7c032ca"
+    ws-opts:
+      early-data-header-name: "Sec-WebSocket-Protocol"
+      headers:
+        Host: "ayhanmelishacan.umc-mansur13.workers.dev"
+      max-early-data: 2560
+      path: "/eyJqdW5rIjoicThYWWJLTzZnVjlDNWciLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIyMTIuMTkyLjYuMTE4Il19"
+  - alpn:
+      - "http/1.1"
+    client-fingerprint: "firefox"
+    ech-opts:
+      enable: true
+    ip-version: "ipv4-prefer"
+    name: "💦 40 - VLESS - Clean IP : 2083"
+    network: "ws"
+    packet-encoding: ""
+    port: 2083
+    server: "109.104.153.94"
+    servername: "aYHaNMELisHaCan.umc-mAnsuR13.WoRkErS.deV"
+    skip-cert-verify: false
+    tfo: true
+    tls: true
+    type: "vless"
+    udp: false
+    uuid: "7ff816d4-7ebe-42b3-8898-481df7c032ca"
+    ws-opts:
+      early-data-header-name: "Sec-WebSocket-Protocol"
+      headers:
+        Host: "ayhanmelishacan.umc-mansur13.workers.dev"
+      max-early-data: 2560
+      path: "/eyJqdW5rIjoiTzdrSHFibUQiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIyMTIuMTkyLjYuMTE4Il19"
+  - alpn:
+      - "http/1.1"
+    client-fingerprint: "firefox"
+    ech-opts:
+      enable: true
+    ip-version: "ipv4-prefer"
+    name: "💦 41 - VLESS - Clean IP : 2083"
+    network: "ws"
+    packet-encoding: ""
+    port: 2083
+    server: "chatgpt.com"
+    servername: "ayhAnmelIsHaCAn.UmC-manSUr13.wOrkErS.DEv"
+    skip-cert-verify: false
+    tfo: true
+    tls: true
+    type: "vless"
+    udp: false
+    uuid: "7ff816d4-7ebe-42b3-8898-481df7c032ca"
+    ws-opts:
+      early-data-header-name: "Sec-WebSocket-Protocol"
+      headers:
+        Host: "ayhanmelishacan.umc-mansur13.workers.dev"
+      max-early-data: 2560
+      path: "/eyJqdW5rIjoiVmhDRVB5NThqT0dtSThLUiIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjIxMi4xOTIuNi4xMTgiXX0="
+  - alpn:
+      - "http/1.1"
+    client-fingerprint: "firefox"
+    ech-opts:
+      enable: true
+    ip-version: "ipv4-prefer"
+    name: "💦 42 - VLESS - Clean IP : 2083"
+    network: "ws"
+    packet-encoding: ""
+    port: 2083
+    server: "147.45.174.211"
+    servername: "AYHaNmELIsHaCan.uMc-mAnsUr13.WoRkerS.deV"
+    skip-cert-verify: false
+    tfo: true
+    tls: true
+    type: "vless"
+    udp: false
+    uuid: "7ff816d4-7ebe-42b3-8898-481df7c032ca"
+    ws-opts:
+      early-data-header-name: "Sec-WebSocket-Protocol"
+      headers:
+        Host: "ayhanmelishacan.umc-mansur13.workers.dev"
+      max-early-data: 2560
+      path: "/eyJqdW5rIjoib0VrVkNNMk5pNzdrdXpsaSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjIxMi4xOTIuNi4xMTgiXX0="
+  - alpn:
+      - "http/1.1"
+    client-fingerprint: "firefox"
+    ech-opts:
+      enable: true
+    ip-version: "ipv4-prefer"
+    name: "💦 43 - VLESS - Clean IP : 2083"
+    network: "ws"
+    packet-encoding: ""
+    port: 2083
+    server: "172.66.160.165"
+    servername: "ayHaNMELishACAN.umC-MAnSUR13.wOrKers.DEV"
+    skip-cert-verify: false
+    tfo: true
+    tls: true
+    type: "vless"
+    udp: false
+    uuid: "7ff816d4-7ebe-42b3-8898-481df7c032ca"
+    ws-opts:
+      early-data-header-name: "Sec-WebSocket-Protocol"
+      headers:
+        Host: "ayhanmelishacan.umc-mansur13.workers.dev"
+      max-early-data: 2560
+      path: "/eyJqdW5rIjoiWEVMU1MwWUQiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIyMTIuMTkyLjYuMTE4Il19"
+  - alpn:
+      - "http/1.1"
+    client-fingerprint: "firefox"
+    ech-opts:
+      enable: true
+    ip-version: "ipv4-prefer"
+    name: "💦 44 - VLESS C - Domain : 2083"
+    network: "ws"
+    packet-encoding: ""
+    port: 2083
+    server: "morning-fire-1e0d.umc-mansur13.workers.dev"
+    servername: "morning-fire-1e0d.umc-mansur13.workers.dev"
+    skip-cert-verify: true
+    tfo: true
+    tls: true
+    type: "vless"
+    udp: false
+    uuid: "7ff816d4-7ebe-42b3-8898-481df7c032ca"
+    ws-opts:
+      early-data-header-name: "Sec-WebSocket-Protocol"
+      headers:
+        Host: "ayhanmelishacan.umc-mansur13.workers.dev"
+      max-early-data: 2560
+      path: "/eyJqdW5rIjoicFpKdVFWbWNkbWkxIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMjEyLjE5Mi42LjExOCJdfQ=="
+  - alpn:
+      - "http/1.1"
+    client-fingerprint: "firefox"
+    ech-opts:
+      enable: true
+    ip-version: "ipv4-prefer"
+    name: "💦 1 - Trojan - Domain : 443"
+    network: "ws"
+    password: "vV:[34!$[pkIJ3_3"
+    port: 443
+    server: "ayhanmelishacan.umc-mansur13.workers.dev"
+    skip-cert-verify: false
+    sni: "ayHAnmELIshacAN.uMc-MANSur13.WOrkErs.DEv"
+    tfo: true
+    tls: true
+    type: "trojan"
+    udp: false
+    ws-opts:
+      early-data-header-name: "Sec-WebSocket-Protocol"
+      headers:
+        Host: "ayhanmelishacan.umc-mansur13.workers.dev"
+      max-early-data: 2560
+      path: "/eyJqdW5rIjoiMUF0ekFNMmw3ayIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjIxMi4xOTIuNi4xMTgiXX0="
+  - alpn:
+      - "http/1.1"
+    client-fingerprint: "firefox"
+    ech-opts:
+      enable: true
+    ip-version: "ipv4-prefer"
+    name: "💦 2 - Trojan - Domain : 443"
+    network: "ws"
+    password: "vV:[34!$[pkIJ3_3"
+    port: 443
+    server: "www.speedtest.net"
+    skip-cert-verify: false
+    sni: "ayhANmelIsHacaN.umC-mAnSUr13.WorKErs.dEV"
+    tfo: true
+    tls: true
+    type: "trojan"
+    udp: false
+    ws-opts:
+      early-data-header-name: "Sec-WebSocket-Protocol"
+      headers:
+        Host: "ayhanmelishacan.umc-mansur13.workers.dev"
+      max-early-data: 2560
+      path: "/eyJqdW5rIjoiMzlYSzRkYUhqSzJIbCIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjIxMi4xOTIuNi4xMTgiXX0="
+  - alpn:
+      - "http/1.1"
+    client-fingerprint: "firefox"
+    ech-opts:
+      enable: true
+    ip-version: "ipv4-prefer"
+    name: "💦 3 - Trojan - IPv4 : 443"
+    network: "ws"
+    password: "vV:[34!$[pkIJ3_3"
+    port: 443
+    server: "188.114.96.3"
+    skip-cert-verify: false
+    sni: "ayhAnMELishAcaN.umc-MaNSuR13.WORKers.DeV"
+    tfo: true
+    tls: true
+    type: "trojan"
+    udp: false
+    ws-opts:
+      early-data-header-name: "Sec-WebSocket-Protocol"
+      headers:
+        Host: "ayhanmelishacan.umc-mansur13.workers.dev"
+      max-early-data: 2560
+      path: "/eyJqdW5rIjoiNUozdmNrdFZHVEVOd0JYOSIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjIxMi4xOTIuNi4xMTgiXX0="
+  - alpn:
+      - "http/1.1"
+    client-fingerprint: "firefox"
+    ech-opts:
+      enable: true
+    ip-version: "ipv4-prefer"
+    name: "💦 4 - Trojan - IPv4 : 443"
+    network: "ws"
+    password: "vV:[34!$[pkIJ3_3"
+    port: 443
+    server: "188.114.97.3"
+    skip-cert-verify: false
+    sni: "AYHAnmElIshACAn.uMc-mAnSur13.wOrKeRs.DEv"
+    tfo: true
+    tls: true
+    type: "trojan"
+    udp: false
+    ws-opts:
+      early-data-header-name: "Sec-WebSocket-Protocol"
+      headers:
+        Host: "ayhanmelishacan.umc-mansur13.workers.dev"
+      max-early-data: 2560
+      path: "/eyJqdW5rIjoiQ01Vd2FJTnpGIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMjEyLjE5Mi42LjExOCJdfQ=="
+  - alpn:
+      - "http/1.1"
+    client-fingerprint: "firefox"
+    ech-opts:
+      enable: true
+    ip-version: "ipv4-prefer"
+    name: "💦 5 - Trojan - IPv6 : 443"
+    network: "ws"
+    password: "vV:[34!$[pkIJ3_3"
+    port: 443
+    server: "2a06:98c1:3120::3"
+    skip-cert-verify: false
+    sni: "AYHAnMElisHAcAN.UmC-maNSuR13.WOrkERs.DeV"
+    tfo: true
+    tls: true
+    type: "trojan"
+    udp: false
+    ws-opts:
+      early-data-header-name: "Sec-WebSocket-Protocol"
+      headers:
+        Host: "ayhanmelishacan.umc-mansur13.workers.dev"
+      max-early-data: 2560
+      path: "/eyJqdW5rIjoiOWZ1TXRTcGVsekxYIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMjEyLjE5Mi42LjExOCJdfQ=="
+  - alpn:
+      - "http/1.1"
+    client-fingerprint: "firefox"
+    ech-opts:
+      enable: true
+    ip-version: "ipv4-prefer"
+    name: "💦 6 - Trojan - IPv6 : 443"
+    network: "ws"
+    password: "vV:[34!$[pkIJ3_3"
+    port: 443
+    server: "2a06:98c1:3121::3"
+    skip-cert-verify: false
+    sni: "AYhaNMEliSHacaN.UmC-mansUR13.woRkerS.DEV"
+    tfo: true
+    tls: true
+    type: "trojan"
+    udp: false
+    ws-opts:
+      early-data-header-name: "Sec-WebSocket-Protocol"
+      headers:
+        Host: "ayhanmelishacan.umc-mansur13.workers.dev"
+      max-early-data: 2560
+      path: "/eyJqdW5rIjoiNkMySDN0SUgzeCIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjIxMi4xOTIuNi4xMTgiXX0="
+  - alpn:
+      - "http/1.1"
+    client-fingerprint: "firefox"
+    ech-opts:
+      enable: true
+    ip-version: "ipv4-prefer"
+    name: "💦 7 - Trojan - Clean IP : 443"
+    network: "ws"
+    password: "vV:[34!$[pkIJ3_3"
+    port: 443
+    server: "109.104.153.94"
+    skip-cert-verify: false
+    sni: "AyhAnmELishacaN.umC-maNSUr13.WOrKERS.dEV"
+    tfo: true
+    tls: true
+    type: "trojan"
+    udp: false
+    ws-opts:
+      early-data-header-name: "Sec-WebSocket-Protocol"
+      headers:
+        Host: "ayhanmelishacan.umc-mansur13.workers.dev"
+      max-early-data: 2560
+      path: "/eyJqdW5rIjoiamxjWmpsVjJYcXAxTSIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjIxMi4xOTIuNi4xMTgiXX0="
+  - alpn:
+      - "http/1.1"
+    client-fingerprint: "firefox"
+    ech-opts:
+      enable: true
+    ip-version: "ipv4-prefer"
+    name: "💦 8 - Trojan - Clean IP : 443"
+    network: "ws"
+    password: "vV:[34!$[pkIJ3_3"
+    port: 443
+    server: "chatgpt.com"
+    skip-cert-verify: false
+    sni: "ayHaNmELIshAcaN.uMC-manSur13.wORkeRs.Dev"
+    tfo: true
+    tls: true
+    type: "trojan"
+    udp: false
+    ws-opts:
+      early-data-header-name: "Sec-WebSocket-Protocol"
+      headers:
+        Host: "ayhanmelishacan.umc-mansur13.workers.dev"
+      max-early-data: 2560
+      path: "/eyJqdW5rIjoiWUhMWE1OajkiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIyMTIuMTkyLjYuMTE4Il19"
+  - alpn:
+      - "http/1.1"
+    client-fingerprint: "firefox"
+    ech-opts:
+      enable: true
+    ip-version: "ipv4-prefer"
+    name: "💦 9 - Trojan - Clean IP : 443"
+    network: "ws"
+    password: "vV:[34!$[pkIJ3_3"
+    port: 443
+    server: "147.45.174.211"
+    skip-cert-verify: false
+    sni: "ayHanMELIshaCan.UMc-mANsur13.wOrKErS.DeV"
+    tfo: true
+    tls: true
+    type: "trojan"
+    udp: false
+    ws-opts:
+      early-data-header-name: "Sec-WebSocket-Protocol"
+      headers:
+        Host: "ayhanmelishacan.umc-mansur13.workers.dev"
+      max-early-data: 2560
+      path: "/eyJqdW5rIjoidkFRM2psaTAxVUYiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIyMTIuMTkyLjYuMTE4Il19"
+  - alpn:
+      - "http/1.1"
+    client-fingerprint: "firefox"
+    ech-opts:
+      enable: true
+    ip-version: "ipv4-prefer"
+    name: "💦 10 - Trojan - Clean IP : 443"
+    network: "ws"
+    password: "vV:[34!$[pkIJ3_3"
+    port: 443
+    server: "172.66.160.165"
+    skip-cert-verify: false
+    sni: "ayhaNmElisHAcAn.umC-mAnsuR13.WORkERS.dEV"
+    tfo: true
+    tls: true
+    type: "trojan"
+    udp: false
+    ws-opts:
+      early-data-header-name: "Sec-WebSocket-Protocol"
+      headers:
+        Host: "ayhanmelishacan.umc-mansur13.workers.dev"
+      max-early-data: 2560
+      path: "/eyJqdW5rIjoiZFFLMGlmSUgiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIyMTIuMTkyLjYuMTE4Il19"
+  - alpn:
+      - "http/1.1"
+    client-fingerprint: "firefox"
+    ech-opts:
+      enable: true
+    ip-version: "ipv4-prefer"
+    name: "💦 11 - Trojan C - Domain : 443"
+    network: "ws"
+    password: "vV:[34!$[pkIJ3_3"
+    port: 443
+    server: "morning-fire-1e0d.umc-mansur13.workers.dev"
+    skip-cert-verify: true
+    sni: "morning-fire-1e0d.umc-mansur13.workers.dev"
+    tfo: true
+    tls: true
+    type: "trojan"
+    udp: false
+    ws-opts:
+      early-data-header-name: "Sec-WebSocket-Protocol"
+      headers:
+        Host: "ayhanmelishacan.umc-mansur13.workers.dev"
+      max-early-data: 2560
+      path: "/eyJqdW5rIjoiOENZcmZINlBVViIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjIxMi4xOTIuNi4xMTgiXX0="
+  - alpn:
+      - "http/1.1"
+    client-fingerprint: "firefox"
+    ech-opts:
+      enable: true
+    ip-version: "ipv4-prefer"
+    name: "💦 12 - Trojan - Domain : 8443"
+    network: "ws"
+    password: "vV:[34!$[pkIJ3_3"
+    port: 8443
+    server: "ayhanmelishacan.umc-mansur13.workers.dev"
+    skip-cert-verify: false
+    sni: "AyhANMELIsHAcAn.umc-MAnsUR13.WORkers.deV"
+    tfo: true
+    tls: true
+    type: "trojan"
+    udp: false
+    ws-opts:
+      early-data-header-name: "Sec-WebSocket-Protocol"
+      headers:
+        Host: "ayhanmelishacan.umc-mansur13.workers.dev"
+      max-early-data: 2560
+      path: "/eyJqdW5rIjoiSnZ6UG5nVEtqIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMjEyLjE5Mi42LjExOCJdfQ=="
+  - alpn:
+      - "http/1.1"
+    client-fingerprint: "firefox"
+    ech-opts:
+      enable: true
+    ip-version: "ipv4-prefer"
+    name: "💦 13 - Trojan - Domain : 8443"
+    network: "ws"
+    password: "vV:[34!$[pkIJ3_3"
+    port: 8443
+    server: "www.speedtest.net"
+    skip-cert-verify: false
+    sni: "AYHAnMeliShacan.UMC-MAnsUR13.wORkErS.dEv"
+    tfo: true
+    tls: true
+    type: "trojan"
+    udp: false
+    ws-opts:
+      early-data-header-name: "Sec-WebSocket-Protocol"
+      headers:
+        Host: "ayhanmelishacan.umc-mansur13.workers.dev"
+      max-early-data: 2560
+      path: "/eyJqdW5rIjoielJHTmIyaXVhVUtUZDZHIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMjEyLjE5Mi42LjExOCJdfQ=="
+  - alpn:
+      - "http/1.1"
+    client-fingerprint: "firefox"
+    ech-opts:
+      enable: true
+    ip-version: "ipv4-prefer"
+    name: "💦 14 - Trojan - IPv4 : 8443"
+    network: "ws"
+    password: "vV:[34!$[pkIJ3_3"
+    port: 8443
+    server: "188.114.96.3"
+    skip-cert-verify: false
+    sni: "aYhanmeLiShAcAn.UMc-MAnsUr13.wORkeRS.dev"
+    tfo: true
+    tls: true
+    type: "trojan"
+    udp: false
+    ws-opts:
+      early-data-header-name: "Sec-WebSocket-Protocol"
+      headers:
+        Host: "ayhanmelishacan.umc-mansur13.workers.dev"
+      max-early-data: 2560
+      path: "/eyJqdW5rIjoiTkRVSDc3UnpWbE9wVDEiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIyMTIuMTkyLjYuMTE4Il19"
+  - alpn:
+      - "http/1.1"
+    client-fingerprint: "firefox"
+    ech-opts:
+      enable: true
+    ip-version: "ipv4-prefer"
+    name: "💦 15 - Trojan - IPv4 : 8443"
+    network: "ws"
+    password: "vV:[34!$[pkIJ3_3"
+    port: 8443
+    server: "188.114.97.3"
+    skip-cert-verify: false
+    sni: "AyHanmEliShaCaN.uMc-MaNsUR13.wOrKErs.dEv"
+    tfo: true
+    tls: true
+    type: "trojan"
+    udp: false
+    ws-opts:
+      early-data-header-name: "Sec-WebSocket-Protocol"
+      headers:
+        Host: "ayhanmelishacan.umc-mansur13.workers.dev"
+      max-early-data: 2560
+      path: "/eyJqdW5rIjoiNVp0YVcwVUdKRU95IiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMjEyLjE5Mi42LjExOCJdfQ=="
+  - alpn:
+      - "http/1.1"
+    client-fingerprint: "firefox"
+    ech-opts:
+      enable: true
+    ip-version: "ipv4-prefer"
+    name: "💦 16 - Trojan - IPv6 : 8443"
+    network: "ws"
+    password: "vV:[34!$[pkIJ3_3"
+    port: 8443
+    server: "2a06:98c1:3120::3"
+    skip-cert-verify: false
+    sni: "AyhANmeLIshAcAN.UMc-mAnSUR13.woRkERs.dEv"
+    tfo: true
+    tls: true
+    type: "trojan"
+    udp: false
+    ws-opts:
+      early-data-header-name: "Sec-WebSocket-Protocol"
+      headers:
+        Host: "ayhanmelishacan.umc-mansur13.workers.dev"
+      max-early-data: 2560
+      path: "/eyJqdW5rIjoiTzF3ZEkyd3RQeUMyZmZrIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMjEyLjE5Mi42LjExOCJdfQ=="
+  - alpn:
+      - "http/1.1"
+    client-fingerprint: "firefox"
+    ech-opts:
+      enable: true
+    ip-version: "ipv4-prefer"
+    name: "💦 17 - Trojan - IPv6 : 8443"
+    network: "ws"
+    password: "vV:[34!$[pkIJ3_3"
+    port: 8443
+    server: "2a06:98c1:3121::3"
+    skip-cert-verify: false
+    sni: "AyhANMeLISHaCan.umc-mAnsuR13.worKErs.dEV"
+    tfo: true
+    tls: true
+    type: "trojan"
+    udp: false
+    ws-opts:
+      early-data-header-name: "Sec-WebSocket-Protocol"
+      headers:
+        Host: "ayhanmelishacan.umc-mansur13.workers.dev"
+      max-early-data: 2560
+      path: "/eyJqdW5rIjoiaHdVaDljbkZ2ZkZ5anJpIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMjEyLjE5Mi42LjExOCJdfQ=="
+  - alpn:
+      - "http/1.1"
+    client-fingerprint: "firefox"
+    ech-opts:
+      enable: true
+    ip-version: "ipv4-prefer"
+    name: "💦 18 - Trojan - Clean IP : 8443"
+    network: "ws"
+    password: "vV:[34!$[pkIJ3_3"
+    port: 8443
+    server: "109.104.153.94"
+    skip-cert-verify: false
+    sni: "aYhAnMeLiShAcAN.umc-mansur13.WORKErS.DEv"
+    tfo: true
+    tls: true
+    type: "trojan"
+    udp: false
+    ws-opts:
+      early-data-header-name: "Sec-WebSocket-Protocol"
+      headers:
+        Host: "ayhanmelishacan.umc-mansur13.workers.dev"
+      max-early-data: 2560
+      path: "/eyJqdW5rIjoiTmU2S2FtTkxPVCIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjIxMi4xOTIuNi4xMTgiXX0="
+  - alpn:
+      - "http/1.1"
+    client-fingerprint: "firefox"
+    ech-opts:
+      enable: true
+    ip-version: "ipv4-prefer"
+    name: "💦 19 - Trojan - Clean IP : 8443"
+    network: "ws"
+    password: "vV:[34!$[pkIJ3_3"
+    port: 8443
+    server: "chatgpt.com"
+    skip-cert-verify: false
+    sni: "ayHaNMElIsHacan.UMc-mansuR13.woRkERs.DEV"
+    tfo: true
+    tls: true
+    type: "trojan"
+    udp: false
+    ws-opts:
+      early-data-header-name: "Sec-WebSocket-Protocol"
+      headers:
+        Host: "ayhanmelishacan.umc-mansur13.workers.dev"
+      max-early-data: 2560
+      path: "/eyJqdW5rIjoiQmE5ajUwalNzeSIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjIxMi4xOTIuNi4xMTgiXX0="
+  - alpn:
+      - "http/1.1"
+    client-fingerprint: "firefox"
+    ech-opts:
+      enable: true
+    ip-version: "ipv4-prefer"
+    name: "💦 20 - Trojan - Clean IP : 8443"
+    network: "ws"
+    password: "vV:[34!$[pkIJ3_3"
+    port: 8443
+    server: "147.45.174.211"
+    skip-cert-verify: false
+    sni: "ayHanMELIsHacan.UMc-maNsUr13.workeRs.dev"
+    tfo: true
+    tls: true
+    type: "trojan"
+    udp: false
+    ws-opts:
+      early-data-header-name: "Sec-WebSocket-Protocol"
+      headers:
+        Host: "ayhanmelishacan.umc-mansur13.workers.dev"
+      max-early-data: 2560
+      path: "/eyJqdW5rIjoiTWptZlMzc0dIIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMjEyLjE5Mi42LjExOCJdfQ=="
+  - alpn:
+      - "http/1.1"
+    client-fingerprint: "firefox"
+    ech-opts:
+      enable: true
+    ip-version: "ipv4-prefer"
+    name: "💦 21 - Trojan - Clean IP : 8443"
+    network: "ws"
+    password: "vV:[34!$[pkIJ3_3"
+    port: 8443
+    server: "172.66.160.165"
+    skip-cert-verify: false
+    sni: "ayHaNMELIShaCan.UMC-mAnSuR13.workErS.dEV"
+    tfo: true
+    tls: true
+    type: "trojan"
+    udp: false
+    ws-opts:
+      early-data-header-name: "Sec-WebSocket-Protocol"
+      headers:
+        Host: "ayhanmelishacan.umc-mansur13.workers.dev"
+      max-early-data: 2560
+      path: "/eyJqdW5rIjoiZVpHNDNYNldGIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMjEyLjE5Mi42LjExOCJdfQ=="
+  - alpn:
+      - "http/1.1"
+    client-fingerprint: "firefox"
+    ech-opts:
+      enable: true
+    ip-version: "ipv4-prefer"
+    name: "💦 22 - Trojan C - Domain : 8443"
+    network: "ws"
+    password: "vV:[34!$[pkIJ3_3"
+    port: 8443
+    server: "morning-fire-1e0d.umc-mansur13.workers.dev"
+    skip-cert-verify: true
+    sni: "morning-fire-1e0d.umc-mansur13.workers.dev"
+    tfo: true
+    tls: true
+    type: "trojan"
+    udp: false
+    ws-opts:
+      early-data-header-name: "Sec-WebSocket-Protocol"
+      headers:
+        Host: "ayhanmelishacan.umc-mansur13.workers.dev"
+      max-early-data: 2560
+      path: "/eyJqdW5rIjoiQ3FoZFJtN3pZYkVyQiIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjIxMi4xOTIuNi4xMTgiXX0="
+  - alpn:
+      - "http/1.1"
+    client-fingerprint: "firefox"
+    ech-opts:
+      enable: true
+    ip-version: "ipv4-prefer"
+    name: "💦 23 - Trojan - Domain : 2083"
+    network: "ws"
+    password: "vV:[34!$[pkIJ3_3"
+    port: 2083
+    server: "ayhanmelishacan.umc-mansur13.workers.dev"
+    skip-cert-verify: false
+    sni: "ayhANmEliSHACAN.UmC-MAnsUr13.workErs.dEv"
+    tfo: true
+    tls: true
+    type: "trojan"
+    udp: false
+    ws-opts:
+      early-data-header-name: "Sec-WebSocket-Protocol"
+      headers:
+        Host: "ayhanmelishacan.umc-mansur13.workers.dev"
+      max-early-data: 2560
+      path: "/eyJqdW5rIjoiRkNQaUxJRlFTbGRXaU1EcyIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjIxMi4xOTIuNi4xMTgiXX0="
+  - alpn:
+      - "http/1.1"
+    client-fingerprint: "firefox"
+    ech-opts:
+      enable: true
+    ip-version: "ipv4-prefer"
+    name: "💦 24 - Trojan - Domain : 2083"
+    network: "ws"
+    password: "vV:[34!$[pkIJ3_3"
+    port: 2083
+    server: "www.speedtest.net"
+    skip-cert-verify: false
+    sni: "ayhANmelisHaCAN.uMc-Mansur13.WoRkERS.dev"
+    tfo: true
+    tls: true
+    type: "trojan"
+    udp: false
+    ws-opts:
+      early-data-header-name: "Sec-WebSocket-Protocol"
+      headers:
+        Host: "ayhanmelishacan.umc-mansur13.workers.dev"
+      max-early-data: 2560
+      path: "/eyJqdW5rIjoiWmZuY1FJdHlMcUVGY3I5IiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMjEyLjE5Mi42LjExOCJdfQ=="
+  - alpn:
+      - "http/1.1"
+    client-fingerprint: "firefox"
+    ech-opts:
+      enable: true
+    ip-version: "ipv4-prefer"
+    name: "💦 25 - Trojan - IPv4 : 2083"
+    network: "ws"
+    password: "vV:[34!$[pkIJ3_3"
+    port: 2083
+    server: "188.114.96.3"
+    skip-cert-verify: false
+    sni: "AYHAnmElishaCan.umc-MAnsUr13.WoRkerS.dEV"
+    tfo: true
+    tls: true
+    type: "trojan"
+    udp: false
+    ws-opts:
+      early-data-header-name: "Sec-WebSocket-Protocol"
+      headers:
+        Host: "ayhanmelishacan.umc-mansur13.workers.dev"
+      max-early-data: 2560
+      path: "/eyJqdW5rIjoicG1mdHRISUxWanNEZyIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjIxMi4xOTIuNi4xMTgiXX0="
+  - alpn:
+      - "http/1.1"
+    client-fingerprint: "firefox"
+    ech-opts:
+      enable: true
+    ip-version: "ipv4-prefer"
+    name: "💦 26 - Trojan - IPv4 : 2083"
+    network: "ws"
+    password: "vV:[34!$[pkIJ3_3"
+    port: 2083
+    server: "188.114.97.3"
+    skip-cert-verify: false
+    sni: "AyHanmELIShacAn.uMC-mANSuR13.WOrKers.DEV"
+    tfo: true
+    tls: true
+    type: "trojan"
+    udp: false
+    ws-opts:
+      early-data-header-name: "Sec-WebSocket-Protocol"
+      headers:
+        Host: "ayhanmelishacan.umc-mansur13.workers.dev"
+      max-early-data: 2560
+      path: "/eyJqdW5rIjoiZVJJbE9wRXlUMlhmNyIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjIxMi4xOTIuNi4xMTgiXX0="
+  - alpn:
+      - "http/1.1"
+    client-fingerprint: "firefox"
+    ech-opts:
+      enable: true
+    ip-version: "ipv4-prefer"
+    name: "💦 27 - Trojan - IPv6 : 2083"
+    network: "ws"
+    password: "vV:[34!$[pkIJ3_3"
+    port: 2083
+    server: "2a06:98c1:3120::3"
+    skip-cert-verify: false
+    sni: "AYHanMElISHacAN.Umc-MANsur13.wORKERS.Dev"
+    tfo: true
+    tls: true
+    type: "trojan"
+    udp: false
+    ws-opts:
+      early-data-header-name: "Sec-WebSocket-Protocol"
+      headers:
+        Host: "ayhanmelishacan.umc-mansur13.workers.dev"
+      max-early-data: 2560
+      path: "/eyJqdW5rIjoiOGpveHk1MzgwQ1AiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIyMTIuMTkyLjYuMTE4Il19"
+  - alpn:
+      - "http/1.1"
+    client-fingerprint: "firefox"
+    ech-opts:
+      enable: true
+    ip-version: "ipv4-prefer"
+    name: "💦 28 - Trojan - IPv6 : 2083"
+    network: "ws"
+    password: "vV:[34!$[pkIJ3_3"
+    port: 2083
+    server: "2a06:98c1:3121::3"
+    skip-cert-verify: false
+    sni: "aYHanMeLISHaCAN.uMc-ManSUr13.wOrKErs.DEV"
+    tfo: true
+    tls: true
+    type: "trojan"
+    udp: false
+    ws-opts:
+      early-data-header-name: "Sec-WebSocket-Protocol"
+      headers:
+        Host: "ayhanmelishacan.umc-mansur13.workers.dev"
+      max-early-data: 2560
+      path: "/eyJqdW5rIjoiMTJ2alNIcTFleDAiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIyMTIuMTkyLjYuMTE4Il19"
+  - alpn:
+      - "http/1.1"
+    client-fingerprint: "firefox"
+    ech-opts:
+      enable: true
+    ip-version: "ipv4-prefer"
+    name: "💦 29 - Trojan - Clean IP : 2083"
+    network: "ws"
+    password: "vV:[34!$[pkIJ3_3"
+    port: 2083
+    server: "109.104.153.94"
+    skip-cert-verify: false
+    sni: "AYHaNMELiSHACAN.UMC-manSUR13.woRkERs.dEV"
+    tfo: true
+    tls: true
+    type: "trojan"
+    udp: false
+    ws-opts:
+      early-data-header-name: "Sec-WebSocket-Protocol"
+      headers:
+        Host: "ayhanmelishacan.umc-mansur13.workers.dev"
+      max-early-data: 2560
+      path: "/eyJqdW5rIjoiSUg4empFVHNiSFNLeiIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjIxMi4xOTIuNi4xMTgiXX0="
+  - alpn:
+      - "http/1.1"
+    client-fingerprint: "firefox"
+    ech-opts:
+      enable: true
+    ip-version: "ipv4-prefer"
+    name: "💦 30 - Trojan - Clean IP : 2083"
+    network: "ws"
+    password: "vV:[34!$[pkIJ3_3"
+    port: 2083
+    server: "chatgpt.com"
+    skip-cert-verify: false
+    sni: "AYhaNmElishacAn.UmC-mAnsUr13.WoRKErs.dev"
+    tfo: true
+    tls: true
+    type: "trojan"
+    udp: false
+    ws-opts:
+      early-data-header-name: "Sec-WebSocket-Protocol"
+      headers:
+        Host: "ayhanmelishacan.umc-mansur13.workers.dev"
+      max-early-data: 2560
+      path: "/eyJqdW5rIjoibTEyREVrMGsiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIyMTIuMTkyLjYuMTE4Il19"
+  - alpn:
+      - "http/1.1"
+    client-fingerprint: "firefox"
+    ech-opts:
+      enable: true
+    ip-version: "ipv4-prefer"
+    name: "💦 31 - Trojan - Clean IP : 2083"
+    network: "ws"
+    password: "vV:[34!$[pkIJ3_3"
+    port: 2083
+    server: "147.45.174.211"
+    skip-cert-verify: false
+    sni: "AyhaNMELIsHACAN.UMc-mANSuR13.workErS.dev"
+    tfo: true
+    tls: true
+    type: "trojan"
+    udp: false
+    ws-opts:
+      early-data-header-name: "Sec-WebSocket-Protocol"
+      headers:
+        Host: "ayhanmelishacan.umc-mansur13.workers.dev"
+      max-early-data: 2560
+      path: "/eyJqdW5rIjoiSGNDdGtDdE5uWSIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjIxMi4xOTIuNi4xMTgiXX0="
+  - alpn:
+      - "http/1.1"
+    client-fingerprint: "firefox"
+    ech-opts:
+      enable: true
+    ip-version: "ipv4-prefer"
+    name: "💦 32 - Trojan - Clean IP : 2083"
+    network: "ws"
+    password: "vV:[34!$[pkIJ3_3"
+    port: 2083
+    server: "172.66.160.165"
+    skip-cert-verify: false
+    sni: "AYHaNMELISHaCAN.UMc-MansUR13.woRKers.dEV"
+    tfo: true
+    tls: true
+    type: "trojan"
+    udp: false
+    ws-opts:
+      early-data-header-name: "Sec-WebSocket-Protocol"
+      headers:
+        Host: "ayhanmelishacan.umc-mansur13.workers.dev"
+      max-early-data: 2560
+      path: "/eyJqdW5rIjoiam5oS08xMW94SSIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjIxMi4xOTIuNi4xMTgiXX0="
+  - alpn:
+      - "http/1.1"
+    client-fingerprint: "firefox"
+    ech-opts:
+      enable: true
+    ip-version: "ipv4-prefer"
+    name: "💦 33 - Trojan C - Domain : 2083"
+    network: "ws"
+    password: "vV:[34!$[pkIJ3_3"
+    port: 2083
+    server: "morning-fire-1e0d.umc-mansur13.workers.dev"
+    skip-cert-verify: true
+    sni: "morning-fire-1e0d.umc-mansur13.workers.dev"
+    tfo: true
+    tls: true
+    type: "trojan"
+    udp: false
+    ws-opts:
+      early-data-header-name: "Sec-WebSocket-Protocol"
+      headers:
+        Host: "ayhanmelishacan.umc-mansur13.workers.dev"
+      max-early-data: 2560
+      path: "/eyJqdW5rIjoid0FaOGdmc251aXciLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIyMTIuMTkyLjYuMTE4Il19"
+proxy-groups:
+  - name: "✅ Selector"
+    proxies:
+      - "💦 Best Ping 🚀"
+      - "💦 1 - VLESS - Domain : 80"
+      - "💦 2 - VLESS - Domain : 80"
+      - "💦 3 - VLESS - IPv4 : 80"
+      - "💦 4 - VLESS - IPv4 : 80"
+      - "💦 5 - VLESS - IPv6 : 80"
+      - "💦 6 - VLESS - IPv6 : 80"
+      - "💦 7 - VLESS - Clean IP : 80"
+      - "💦 8 - VLESS - Clean IP : 80"
+      - "💦 9 - VLESS - Clean IP : 80"
+      - "💦 10 - VLESS - Clean IP : 80"
+      - "💦 11 - VLESS C - Domain : 80"
+      - "💦 12 - VLESS - Domain : 443"
+      - "💦 13 - VLESS - Domain : 443"
+      - "💦 14 - VLESS - IPv4 : 443"
+      - "💦 15 - VLESS - IPv4 : 443"
+      - "💦 16 - VLESS - IPv6 : 443"
+      - "💦 17 - VLESS - IPv6 : 443"
+      - "💦 18 - VLESS - Clean IP : 443"
+      - "💦 19 - VLESS - Clean IP : 443"
+      - "💦 20 - VLESS - Clean IP : 443"
+      - "💦 21 - VLESS - Clean IP : 443"
+      - "💦 22 - VLESS C - Domain : 443"
+      - "💦 23 - VLESS - Domain : 8443"
+      - "💦 24 - VLESS - Domain : 8443"
+      - "💦 25 - VLESS - IPv4 : 8443"
+      - "💦 26 - VLESS - IPv4 : 8443"
+      - "💦 27 - VLESS - IPv6 : 8443"
+      - "💦 28 - VLESS - IPv6 : 8443"
+      - "💦 29 - VLESS - Clean IP : 8443"
+      - "💦 30 - VLESS - Clean IP : 8443"
+      - "💦 31 - VLESS - Clean IP : 8443"
+      - "💦 32 - VLESS - Clean IP : 8443"
+      - "💦 33 - VLESS C - Domain : 8443"
+      - "💦 34 - VLESS - Domain : 2083"
+      - "💦 35 - VLESS - Domain : 2083"
+      - "💦 36 - VLESS - IPv4 : 2083"
+      - "💦 37 - VLESS - IPv4 : 2083"
+      - "💦 38 - VLESS - IPv6 : 2083"
+      - "💦 39 - VLESS - IPv6 : 2083"
+      - "💦 40 - VLESS - Clean IP : 2083"
+      - "💦 41 - VLESS - Clean IP : 2083"
+      - "💦 42 - VLESS - Clean IP : 2083"
+      - "💦 43 - VLESS - Clean IP : 2083"
+      - "💦 44 - VLESS C - Domain : 2083"
+      - "💦 1 - Trojan - Domain : 443"
+      - "💦 2 - Trojan - Domain : 443"
+      - "💦 3 - Trojan - IPv4 : 443"
+      - "💦 4 - Trojan - IPv4 : 443"
+      - "💦 5 - Trojan - IPv6 : 443"
+      - "💦 6 - Trojan - IPv6 : 443"
+      - "💦 7 - Trojan - Clean IP : 443"
+      - "💦 8 - Trojan - Clean IP : 443"
+      - "💦 9 - Trojan - Clean IP : 443"
+      - "💦 10 - Trojan - Clean IP : 443"
+      - "💦 11 - Trojan C - Domain : 443"
+      - "💦 12 - Trojan - Domain : 8443"
+      - "💦 13 - Trojan - Domain : 8443"
+      - "💦 14 - Trojan - IPv4 : 8443"
+      - "💦 15 - Trojan - IPv4 : 8443"
+      - "💦 16 - Trojan - IPv6 : 8443"
+      - "💦 17 - Trojan - IPv6 : 8443"
+      - "💦 18 - Trojan - Clean IP : 8443"
+      - "💦 19 - Trojan - Clean IP : 8443"
+      - "💦 20 - Trojan - Clean IP : 8443"
+      - "💦 21 - Trojan - Clean IP : 8443"
+      - "💦 22 - Trojan C - Domain : 8443"
+      - "💦 23 - Trojan - Domain : 2083"
+      - "💦 24 - Trojan - Domain : 2083"
+      - "💦 25 - Trojan - IPv4 : 2083"
+      - "💦 26 - Trojan - IPv4 : 2083"
+      - "💦 27 - Trojan - IPv6 : 2083"
+      - "💦 28 - Trojan - IPv6 : 2083"
+      - "💦 29 - Trojan - Clean IP : 2083"
+      - "💦 30 - Trojan - Clean IP : 2083"
+      - "💦 31 - Trojan - Clean IP : 2083"
+      - "💦 32 - Trojan - Clean IP : 2083"
+      - "💦 33 - Trojan C - Domain : 2083"
+    type: "select"
+  - interval: 30
+    name: "💦 Best Ping 🚀"
+    proxies:
+      - "💦 1 - VLESS - Domain : 80"
+      - "💦 2 - VLESS - Domain : 80"
+      - "💦 3 - VLESS - IPv4 : 80"
+      - "💦 4 - VLESS - IPv4 : 80"
+      - "💦 5 - VLESS - IPv6 : 80"
+      - "💦 6 - VLESS - IPv6 : 80"
+      - "💦 7 - VLESS - Clean IP : 80"
+      - "💦 8 - VLESS - Clean IP : 80"
+      - "💦 9 - VLESS - Clean IP : 80"
+      - "💦 10 - VLESS - Clean IP : 80"
+      - "💦 11 - VLESS C - Domain : 80"
+      - "💦 12 - VLESS - Domain : 443"
+      - "💦 13 - VLESS - Domain : 443"
+      - "💦 14 - VLESS - IPv4 : 443"
+      - "💦 15 - VLESS - IPv4 : 443"
+      - "💦 16 - VLESS - IPv6 : 443"
+      - "💦 17 - VLESS - IPv6 : 443"
+      - "💦 18 - VLESS - Clean IP : 443"
+      - "💦 19 - VLESS - Clean IP : 443"
+      - "💦 20 - VLESS - Clean IP : 443"
+      - "💦 21 - VLESS - Clean IP : 443"
+      - "💦 22 - VLESS C - Domain : 443"
+      - "💦 23 - VLESS - Domain : 8443"
+      - "💦 24 - VLESS - Domain : 8443"
+      - "💦 25 - VLESS - IPv4 : 8443"
+      - "💦 26 - VLESS - IPv4 : 8443"
+      - "💦 27 - VLESS - IPv6 : 8443"
+      - "💦 28 - VLESS - IPv6 : 8443"
+      - "💦 29 - VLESS - Clean IP : 8443"
+      - "💦 30 - VLESS - Clean IP : 8443"
+      - "💦 31 - VLESS - Clean IP : 8443"
+      - "💦 32 - VLESS - Clean IP : 8443"
+      - "💦 33 - VLESS C - Domain : 8443"
+      - "💦 34 - VLESS - Domain : 2083"
+      - "💦 35 - VLESS - Domain : 2083"
+      - "💦 36 - VLESS - IPv4 : 2083"
+      - "💦 37 - VLESS - IPv4 : 2083"
+      - "💦 38 - VLESS - IPv6 : 2083"
+      - "💦 39 - VLESS - IPv6 : 2083"
+      - "💦 40 - VLESS - Clean IP : 2083"
+      - "💦 41 - VLESS - Clean IP : 2083"
+      - "💦 42 - VLESS - Clean IP : 2083"
+      - "💦 43 - VLESS - Clean IP : 2083"
+      - "💦 44 - VLESS C - Domain : 2083"
+      - "💦 1 - Trojan - Domain : 443"
+      - "💦 2 - Trojan - Domain : 443"
+      - "💦 3 - Trojan - IPv4 : 443"
+      - "💦 4 - Trojan - IPv4 : 443"
+      - "💦 5 - Trojan - IPv6 : 443"
+      - "💦 6 - Trojan - IPv6 : 443"
+      - "💦 7 - Trojan - Clean IP : 443"
+      - "💦 8 - Trojan - Clean IP : 443"
+      - "💦 9 - Trojan - Clean IP : 443"
+      - "💦 10 - Trojan - Clean IP : 443"
+      - "💦 11 - Trojan C - Domain : 443"
+      - "💦 12 - Trojan - Domain : 8443"
+      - "💦 13 - Trojan - Domain : 8443"
+      - "💦 14 - Trojan - IPv4 : 8443"
+      - "💦 15 - Trojan - IPv4 : 8443"
+      - "💦 16 - Trojan - IPv6 : 8443"
+      - "💦 17 - Trojan - IPv6 : 8443"
+      - "💦 18 - Trojan - Clean IP : 8443"
+      - "💦 19 - Trojan - Clean IP : 8443"
+      - "💦 20 - Trojan - Clean IP : 8443"
+      - "💦 21 - Trojan - Clean IP : 8443"
+      - "💦 22 - Trojan C - Domain : 8443"
+      - "💦 23 - Trojan - Domain : 2083"
+      - "💦 24 - Trojan - Domain : 2083"
+      - "💦 25 - Trojan - IPv4 : 2083"
+      - "💦 26 - Trojan - IPv4 : 2083"
+      - "💦 27 - Trojan - IPv6 : 2083"
+      - "💦 28 - Trojan - IPv6 : 2083"
+      - "💦 29 - Trojan - Clean IP : 2083"
+      - "💦 30 - Trojan - Clean IP : 2083"
+      - "💦 31 - Trojan - Clean IP : 2083"
+      - "💦 32 - Trojan - Clean IP : 2083"
+      - "💦 33 - Trojan C - Domain : 2083"
+    tolerance: 50
+    type: "url-test"
+    url: "https://www.gstatic.com/generate_204"
+sub-rules: null
+listeners: null
+hosts: {}
+dns:
+  enable: true
+  prefer-h3: false
+  ipv6: true
+  ipv6-timeout: 100
+  use-hosts: true
+  use-system-hosts: false
+  respect-rules: true
+  nameserver:
+    - "https://9.9.9.9/dns-query#✅ Selector"
+    - "system://"
+  fallback: null
+  fallback-filter:
+    geoip: true
+    geoip-code: "CN"
+    ipcidr: []
+    domain: null
+    geosite: []
+  listen: "127.0.0.1:1053"
+  enhanced-mode: "fake-ip"
+  fake-ip-range: "198.18.0.1/16"
+  fake-ip-range6: ""
+  fake-ip-filter:
+    - "+.lan"
+    - "+.local"
+  fake-ip-filter-mode: "blacklist"
+  fake-ip-ttl: 1
+  default-nameserver:
+    - "114.114.114.114"
+    - "223.5.5.5"
+    - "8.8.8.8"
+    - "1.0.0.1"
+  cache-algorithm: ""
+  cache-max-size: 0
+  nameserver-policy:
+    rule-set:openai: "178.22.122.100#DIRECT"
+  proxy-server-nameserver:
+    - "8.8.4.4#DIRECT"
+  direct-nameserver:
+    - "8.8.4.4#DIRECT"
+  direct-nameserver-follow-policy: true
+ntp:
+  enable: true
+  server: "time.cloudflare.com"
+  port: 123
+  interval: 30
+  dialer-proxy: ""
+  write-to-system: false
+tun:
+  enable: false
+  device: "FlClash"
+  stack: "gvisor"
+  dns-hijack:
+    - "any:53"
+  auto-route: true
+  AutoDetectInterface: true
+  mtu: 9000
+  inet6-address:
+    - "fdfe:dcba:9876::1/126"
+  strict-route: true
+  file-descriptor: 0
+  recvmsgx: true
+  route-address: []
+tuic-server:
+  enable: false
+  listen: ""
+  token: null
+  certificate: ""
+  private-key: ""
+  max-idle-time: 15000
+  authentication-timeout: 1000
+  alpn:
+    - "h3"
+  max-udp-relay-packet-size: 1500
+iptables:
+  enable: false
+  inbound-interface: "lo"
+  bypass: []
+  dns-redirect: true
+experimental:
+  Fingerprints: null
+  QUICGoDisableGSO: false
+  QUICGoDisableECN: true
+  IP4PEnable: false
+profile:
+  store-selected: false
+  store-fake-ip: true
+geox-url:
+  mmdb: "https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geoip.metadb"
+  asn: "https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/GeoLite2-ASN.mmdb"
+  geoip: "https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geoip.dat"
+  geosite: "https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geosite.dat"
+sniffer:
+  enable: true
+  override-destination: true
+  sniffing: null
+  force-domain: []
+  skip-src-address: null
+  skip-dst-address: null
+  skip-domain: []
+  port-whitelist: []
+  force-dns-mapping: true
+  parse-pure-ip: true
+  sniff:
+    HTTP:
+      ports:
+        - "80"
+        - "8080"
+        - "8880"
+        - "2052"
+        - "2082"
+        - "2086"
+        - "2095"
+      override-destination: null
+    TLS:
+      ports:
+        - "443"
+        - "8443"
+        - "2053"
+        - "2083"
+        - "2087"
+        - "2096"
+      override-destination: null
+tls:
+  certificate: ""
+  private-key: ""
+  client-auth-type: ""
+  client-auth-cert: ""
+  ech-key: ""
+  custom-certifactes: null
+clash-for-android:
+  append-system-dns: false
+  ui-subtitle-pattern: ""
+rules:
+  - "GEOIP,lan,DIRECT,no-resolve"
+  - "NETWORK,udp,REJECT"
+  - "RULE-SET,category-ads-all,REJECT"
+  - "RULE-SET,nsfw,REJECT"
+  - "DOMAIN-SUFFIX,nl.pornhub.com,REJECT"
+  - "DOMAIN-SUFFIX,pornhub.net,REJECT"
+  - "DOMAIN-SUFFIX,fr.pornhub.com,REJECT"
+  - "DOMAIN-SUFFIX,xvideos.com,REJECT"
+  - "DOMAIN-SUFFIX,de.pornhub.com,REJECT"
+  - "RULE-SET,openai,DIRECT"
+  - "MATCH,✅ Selector"
